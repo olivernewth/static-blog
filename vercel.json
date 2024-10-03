@@ -5,10 +5,7 @@
       "HUGO_ENV": "production"
     }
   },
-  "buildCommand": "hugo --gc --minify",
+  "buildCommand": "hugo --gc",
   "outputDirectory": "public",
-  "framework": "hugo",
-  "cacheDirectories": [
-    ".cache"
-  ]
+  "framework": "hugo"
 }
