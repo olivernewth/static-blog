@@ -1,4 +1,4 @@
-baseURL: "https://example.org/"
+baseURL: https://beta.newth.ai
 languageCode: "en-us"
 title: "Oliver Grosvenor-Newth"
 theme: "PaperMod"

@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"@vercel/flags": "^2.6.0"
+	}
+}
