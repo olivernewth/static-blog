@@ -1,32 +1,12 @@
-# Hugo generated files
-/public/
-/resources/_gen/
+# Hugo default output directory
+/public
 
-# Hugo executables
-hugo.exe
-hugo.linux
-hugo.darwin
+# Hugo cache directory
+/resources/_gen
 
 # OS generated files
 .DS_Store
+Thumbs.db
 
-# Dependencies
-/node_modules/
-
-# Build output
-/dist/
-
-# Temporary files
-/tmp/
-
-# IDE and editor files
-.vscode/
-.idea/
-*.swp
-*~
-
-# Log files
-*.log
-
-# Environment variables
-.env
+# Vercel files
+.vercel
