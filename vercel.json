@@ -1,10 +1,14 @@
 {
   "build": {
     "env": {
-      "HUGO_VERSION": "0.111.3"
+      "HUGO_VERSION": "0.111.3",
+      "HUGO_ENV": "production"
     }
   },
   "buildCommand": "hugo --gc --minify",
   "outputDirectory": "public",
-  "framework": "hugo"
+  "framework": "hugo",
+  "cacheDirectories": [
+    ".cache"
+  ]
 }
