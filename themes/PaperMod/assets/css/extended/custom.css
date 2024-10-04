@@ -1,0 +1,166 @@
+/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+body.home-profile {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.logo-image {
+    height: 1em;
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.header, .footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@font-face {
+    font-family: 'CO Medium Italic';
+    src: url('/fonts/co-medium-italic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+h1 {
+    /* font-family: 'CO Medium Italic', serif; */
+    font-weight: 500;
+    letter-spacing: -0.045em;
+    text-wrap: balance;
+}
+
+.profile_inner span {
+    width:80%;
+    margin:0 auto;
+    text-wrap: balance;
+}
+
+h6 {
+
+.profile_inner h1 {
+    font-size: 4em;
+}
+
+.post-single.wide-layout {
+    max-width: 1200px;
+    margin: auto;
+    padding: var(--gap);
+}
+
+.post-single.wide-layout .post-content {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1220px) {
+    .post-single.wide-layout {
+        max-width: calc(100% - var(--gap) * 2);
+    }
+}
+
+.right-image {
+    float: right;
+    clear: right;
+    margin-right: -60%;
+    width: 50%;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.right-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.post-content {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .right-image {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.marginnote {
+    float: right;
+    clear: right;
+    margin-right: -60%;
+    width: 50%;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    vertical-align: baseline;
+    position: relative;
+}
+
+.sidenote-number {
+    counter-increment: sidenote-counter;
+}
+
+.sidenote-number:after,
+.marginnote:before {
+    font-family: et-book-roman-old-style;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.sidenote-number:after {
+    content: counter(sidenote-counter);
+    font-size: 0.9rem;
+    top: -0.5rem;
+    left: 0.1rem;
+}
+
+.marginnote:before {
+    content: counter(sidenote-counter) " ";
+    font-size: 0.9rem;
+    top: -0.5rem;
+}
+
+@media (max-width: 1220px) {
+    .marginnote {
+        margin-right: -45%;
+        width: 40%;
+    }
+}
+
+@media (max-width: 760px) {
+    .marginnote {
+        display: none;
+    }
+
+    .margin-toggle:checked + .marginnote {
+        display: block;
+        float: left;
+        left: 1rem;
+        clear: both;
+        width: 95%;
+        margin: 1rem 2.5%;
+        vertical-align: baseline;
+        position: relative;
+    }
+}
+
+@media (max-width: 760px) {
+    .right-image {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
