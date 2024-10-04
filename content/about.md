@@ -41,21 +41,3 @@ I'm always excited to discuss new ideas, collaborate on projects, or simply chat
 You can find me on [LinkedIn](https://linkedin.com/in/newth?ref=newth.ai) or [drop me a message](https://newth.ai/contact/).
 
 For those interested in AI product management or looking for mentorship, I offer [Product & AI Mentoring](https://newth.ai/mentoring/) sessions. Feel free to book a time to connect!
-
-## Recent Work and Insights
-
-To get a sense of the cutting-edge work happening in AI robotics, check out these articles featuring Covariant:
-
-How the A.I. That Drives ChatGPT Will Move Into the Physical World
-
-Covariant, a robotics start-up, is designing technology that lets robots learn skills much like chatbots do.
-
-![](https://newth.ai/content/images/thumbnail/11ai-robotics-01-bzgl-facebookJumbo.jpg)
-
-AI robotics' 'GPT moment' is near | TechCrunch
-
-Building AI-powered robots that can learn how to interact with the physical world will enhance all forms of repetitive work.
-
-![](https://newth.ai/content/images/thumbnail/robustai.jpg)
-
-Looking forward to connecting with you and exploring the exciting world of AI together!
