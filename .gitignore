@@ -13,3 +13,4 @@ Thumbs.db
 .env*.local
 
 /node_modules
+.vscode/hugo_server_pid

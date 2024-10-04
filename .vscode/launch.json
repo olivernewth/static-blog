@@ -2,13 +2,12 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Hugo Server",
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "url": "http://localhost:1313",
             "webRoot": "${workspaceFolder}",
-            "preLaunchTask": "start server",
-            "postDebugTask": "stop server",
+            "preLaunchTask": "Start Hugo Server"
         }
     ]
 }

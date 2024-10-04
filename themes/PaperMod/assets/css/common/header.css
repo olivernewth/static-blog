@@ -55,20 +55,30 @@ body:not(.dark) #sun {
     word-break: keep-all;
     overflow-x: auto;
     white-space: nowrap;
+    position: relative; /* Ensure the menu is positioned relative for absolute positioning of the underline */
 }
 
 #menu li + li {
     margin-inline-start: var(--gap);
 }
 
-#menu a {
-    font-size: 16px;
+#menu li {
+    vertical-align: middle;
+    margin: auto 0;
 }
 
-#menu .active {
-    font-weight: 500;
-    border-bottom: 2px solid currentColor;
+#menu a {
+    font-size: 18px; /* Increase font size */
+    line-height: 26px;
+    position: relative; /* Position relative for the pseudo-element */
+    overflow: hidden; /* Hide overflow for the underline */
+    transition: color 0.5s ease-in-out;
 }
+
+#menu a:hover {
+    color: var(--primary); /* Change color on hover */
+}
+
 
 .lang-switch li,
 .lang-switch ul,
@@ -90,4 +100,37 @@ body:not(.dark) #sun {
 
 .logo-switches {
     flex-wrap: inherit;
+}
+
+#menu a::after {
+    content: ''; /* Create a pseudo-element for the underline */
+    position: absolute;
+    left: 0; /* Start from the left */
+    bottom: 0; /* Position at the bottom of the text */
+    width: 100%; /* Full width */
+    height: 2px; /* Height of the underline */
+    background: var(--primary); /* Color of the underline */
+    transform: translateX(-100%); /* Start off-screen to the left */
+    transition: transform 0.3s ease; /* Animation for the underline */
+}
+
+#menu a:hover::after {
+    transform: translateX(0); /* Move the underline into view */
+}
+
+#menu .active a:hover::after {
+    transform: none;
+    /* Prevent the underline from moving on the active item */
+}
+
+
+#menu .active {
+    font-weight: 500;
+    /* border-bottom: 2px solid currentColor; */
+    /* Remove background effect on active nav */
+}
+
+#menu .active a {
+    color: var(--primary);
+    /* Ensure active item has the same color as hover */
 }

@@ -41,3 +41,22 @@
 .button:active {
     transform: scale(0.96);
 }
+
+.cta-button {
+    display: inline-block;
+    background: var(--primary);
+    padding: 10px 20px;
+    border-radius: var(--radius);
+    font-size: 16px;
+    margin-top: 20px; /* Add some space above */
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.cta-button a {
+    color: white;
+}
+
+.cta-button:hover {
+    background: var(--secondary); /* Change background on hover */
+}
