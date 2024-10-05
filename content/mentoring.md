@@ -15,7 +15,7 @@ Look, we all need a little guidance sometimes. Mentoring is like having a secret
 - A sounding board for your wild ideas (and the not-so-wild ones too)
 - A foot in the door to new opportunities
 
-## How I Roll as a Mentor
+## Style of Mentorship
 
 When it comes to mentoring, here's what you can expect from me:
 
