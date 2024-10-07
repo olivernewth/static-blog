@@ -4,8 +4,6 @@ layout: single
 wideLayout: true
 ---
 
-Schedule your interview using the calendar below:
-
 {{< rawhtml>}}
     <!-- Cal inline embed code begins -->
     <script type="text/javascript">

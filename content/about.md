@@ -1,4 +1,6 @@
-# About Oliver
+---
+title: "About Oliver"
+---
 
 I'm Oliver, an AI Product Leader based in San Francisco. With over a decade of experience at companies like Meta, Microsoft and most recently Covariant, I've been at the forefront of developing innovative AI solutions that are reshaping how we interact with technology in our daily lives and in the physical world.
 

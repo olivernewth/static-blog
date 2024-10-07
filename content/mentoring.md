@@ -1,8 +1,8 @@
-+++
-title = 'Mentoring'
-date = 2024-10-04T21:29:33-07:00
-draft = false
-+++
+---
+title: "Mentoring"
+layout: single
+wideLayout: true
+---
 
 Hi there! I'm Oliver, and I'm passionate about helping others level up in their tech careers. With over a decade of experience in AI and product management at companies like Meta, Microsoft, and Covariant, I've got a wealth of knowledge to share.
 
