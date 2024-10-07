@@ -67,7 +67,7 @@ h1 {
     font-family: "CO Medium Italic", et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;    font-weight: 400;
     margin-top: 4rem;
     margin-bottom: 1.5rem;
-    font-size: 3.2rem;
+    font-size: var(--font-size-heading);
     line-height: 1;
 }
 
@@ -177,7 +177,7 @@ blockquote p {
 
 blockquote footer {
     width: 55%;
-    font-size: 1.1rem;
+    font-size: var(--font-size-small);
     text-align: right;
 }
 
@@ -221,7 +221,7 @@ figcaption {
     clear: right;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 1.1rem;
+    font-size: var(--font-size-small);
     line-height: 1.6;
     vertical-align: baseline;
     position: relative;
@@ -262,7 +262,7 @@ img {
     width: 50%;
     margin-top: 0.3rem;
     margin-bottom: 0;
-    font-size: 1.1rem;
+    font-size: var(--font-size-small);
     line-height: 1.3;
     vertical-align: baseline;
     position: relative;

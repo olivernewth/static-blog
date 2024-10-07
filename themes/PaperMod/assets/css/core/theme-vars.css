@@ -5,6 +5,9 @@
     --main-width: 720px;
     --header-height: 60px;
     --footer-height: 60px;
+    --font-size-heading: 3rem;
+    --font-size-base: 1.2rem;
+    --font-size-small: 1.1rem;
     --radius: 8px;
     --theme: rgb(240, 239, 235);
     --entry: rgb(255, 255, 255);
@@ -12,7 +15,7 @@
     --secondary: var(--primary);
     --tertiary: rgb(214, 214, 214);
     --content: var(--primary);
-    --code-block-bg: rgb(28, 29, 33);
+    --code-block-bg: rgb(46, 56, 98);
     --code-bg: rgb(255, 255, 255);
     --border: rgb(238, 238, 238);
 }

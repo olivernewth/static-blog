@@ -5,7 +5,7 @@
 
 .post-title {
     margin-bottom: .5em;
-    font-size: 3em;
+    font-size: var(--font-size-heading);
 }
 
 .post-description {
@@ -16,7 +16,7 @@
 .post-meta,
 .breadcrumbs {
     color: var(--secondary);
-    font-size: 14px;
+    font-size: var(--font-size-small);
     display: flex;
     flex-wrap: wrap;
 }
@@ -36,11 +36,17 @@
     color: var(--content);
 }
 
+.post-content h2,
 .post-content h3,
 .post-content h4,
 .post-content h5,
 .post-content h6 {
     margin: 24px 0 16px;
+    font-weight:600;
+}
+
+.post-content strong {
+    font-weight: 600;
 }
 
 .post-content h1 {
@@ -62,7 +68,7 @@
 }
 
 .post-content h5 {
-    font-size: 14px;
+    font-size: var(--font-size-small);
 }
 
 .post-content h6 {
@@ -256,7 +262,7 @@
 
 .post-content figure > figcaption > p {
     color: var(--secondary);
-    font-size: 14px;
+    font-size: var(--font-size-small);
     font-weight: normal;
 }
 
@@ -331,7 +337,7 @@
     display: block;
     padding: 0 14px;
     color: var(--secondary);
-    font-size: 14px;
+    font-size: var(--font-size-small);
     line-height: 34px;
     background: var(--code-bg);
 }

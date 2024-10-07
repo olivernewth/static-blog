@@ -20,6 +20,7 @@ body.home-profile {
 
 h1 {
     /* font-family: 'CO Medium Italic', serif; */
+    font-size: var(--font-size-heading);
     font-weight: 500;
     letter-spacing: -0.045em;
     text-wrap: balance;

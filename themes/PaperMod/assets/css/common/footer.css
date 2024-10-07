@@ -1,6 +1,6 @@
 .footer,
 .top-link {
-    font-size: 14px;
+    font-size: var(--font-size-small);
     color: var(--secondary);
 }
 

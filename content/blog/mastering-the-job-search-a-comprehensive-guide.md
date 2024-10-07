@@ -78,11 +78,7 @@ To further enhance your job search skills and maintain a positive mindset, consi
 
 1.  **Book Recommendation:** "Bringing Your Boldest Self to Your Biggest Challenges" by Amy Cuddy. This book, available as both a physical copy and an audiobook, provides valuable insights on presenting yourself confidently in high-pressure situations like job interviews.
 
-2.  **Article:**
-
-    Laid off? The realities of finding your next product management job
-
-    from Mind the Product. This article offers practical advice specifically for product managers, but many of its insights are applicable across industries.
+2.  **Articles:** [Laid off? The realities of finding your next product management job](https://www.mindtheproduct.com/laid-off-the-realities-of-finding-your-next-product-management-job/) from Mind the Product offers practical advice specifically for product managers, but many of its insights are applicable across industries.
 
 ## Fine-Tuning Your Approach
 

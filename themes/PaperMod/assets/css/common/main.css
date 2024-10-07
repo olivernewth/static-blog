@@ -5,9 +5,6 @@
     padding: var(--gap); */
 }
 
-.page-header h1 {
-    font-size: 60px;
-}
 
 .pagination {
     display: flex;
@@ -55,7 +52,7 @@ pre {
     background: rgba(78, 78, 78, 0.8);
     border-radius: var(--radius);
     padding: 0 5px;
-    font-size: 14px;
+    font-size: var(--font-size-small);
     user-select: none;
 }
 

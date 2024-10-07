@@ -22,7 +22,8 @@ So that leads me to a few questions I need to answer' What should I write about?
 
 [Paul Graham's Essays](http://www.paulgraham.com/articles.html) are one of the main sources of inspiration as I start this new journey. Paul's essays almost always have left me with new ideas or questions. They're not based on research but his real-world experience, and his often unique way of looking at the world. He has one particularly interesting article called [How to Write Usefully](http://www.paulgraham.com/useful.html). {{< citation 1 "Paul Graham's 'How to Write Usefully' emphasizes that useful writing should be novel, correct, important, and strong. He argues that the combination of these factors creates writing that genuinely adds value to the reader's understanding." >}} He considers his essays to be ones that should be useful, rather than simply being correct:
 
-"If you know nothing at all about an issue, you can't go wrong by saying that the issue is a complex one, that there are many factors to be considered, that it's a mistake to take too simplistic a view of it, and so on. Though no doubt correct, such statements tell the reader nothing. Useful writing makes claims that are as strong as they can be made without becoming false."
+> "If you know nothing at all about an issue, you can't go wrong by saying that the issue is a complex one, that there are many factors to be considered, that it's a mistake to take too simplistic a view of it, and so on. Though no doubt correct, such statements tell the reader nothing. Useful writing makes claims that are as strong as they can be made without becoming false."
+> — <cite>Paul Graham</cite>
 
 For my writing, there are two audiences: you and me. Ideally, my writing will be useful for both of us. I'm going to start by focusing on what could be useful for you, and to be useful it needs to be correct and something that you likely didn't know.
 
