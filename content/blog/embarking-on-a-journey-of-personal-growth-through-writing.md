@@ -20,21 +20,21 @@ So that leads me to a few questions I need to answer' What should I write about?
 
 ### Sources of Inspiration
 
-Paul Graham's Essays are one of the main sources of inspiration as I start this new journey. Paul's essays almost always have left me with new ideas or questions. They're not based on research but his real-world experience, and his often unique way of looking at the world. He has one particularly interesting article called How to Write Usefully. He considers his essays to be ones that should be useful, rather than simply being correct:
+[Paul Graham's Essays](http://www.paulgraham.com/articles.html) are one of the main sources of inspiration as I start this new journey. Paul's essays almost always have left me with new ideas or questions. They're not based on research but his real-world experience, and his often unique way of looking at the world. He has one particularly interesting article called [How to Write Usefully](http://www.paulgraham.com/useful.html). {{< citation 1 "Paul Graham's 'How to Write Usefully' emphasizes that useful writing should be novel, correct, important, and strong. He argues that the combination of these factors creates writing that genuinely adds value to the reader's understanding." >}} He considers his essays to be ones that should be useful, rather than simply being correct:
 
 "If you know nothing at all about an issue, you can't go wrong by saying that the issue is a complex one, that there are many factors to be considered, that it's a mistake to take too simplistic a view of it, and so on. Though no doubt correct, such statements tell the reader nothing. Useful writing makes claims that are as strong as they can be made without becoming false."
 
 For my writing, there are two audiences: you and me. Ideally, my writing will be useful for both of us. I'm going to start by focusing on what could be useful for you, and to be useful it needs to be correct and something that you likely didn't know.
 
-I have also been inspired by Maggie Appleton, who has built a beautiful digital garden with incredibly well-written pieces ranging from AI and design to the core concepts of knowledge building.
+I have also been inspired by [Maggie Appleton](https://maggieappleton.com/), who has built a beautiful digital garden with incredibly well-written pieces ranging from AI and design to the core concepts of knowledge building. {{< citation 2 "Digital gardens, like Maggie Appleton's, represent a shift from traditional blogging to a more interconnected and evolving form of personal knowledge management and sharing." >}}
 
 ### Notes and Maps
 
 For now, I'm going to structure my way of writing and this site around two main concepts: Notes and Maps of Content ("Maps"). These notes will largely be conclusion pieces, hopefully useful pieces, though most likely not always.
 
-Separately, I have also begun to grow some Maps which will be continually added to, updated and hopefully evergreen. Notes may become outdated, but the maps should never be. Over time, I want these to grow with new insights, following techniques such as those taught by Nick Milo. I want to build maps around concepts that are either important or fascinating to me: my list so far to build out includes (in no particular order):
+Separately, I have also begun to grow some Maps which will be continually added to, updated and hopefully evergreen. Notes may become outdated, but the maps should never be. Over time, I want these to grow with new insights, following techniques such as those taught by [Nick Milo](https://www.nickmilo.com/). {{< citation 3 "Nick Milo's 'Linking Your Thinking' methodology emphasizes the importance of creating connections between ideas to enhance understanding and creativity in personal knowledge management." >}} I want to build maps around concepts that are either important or fascinating to me: my list so far to build out includes (in no particular order):
 
-1.  Thinking " or How to Think
+1.  Thinking, or How to Think
 2.  Career
 3.  Goals
 4.  Health

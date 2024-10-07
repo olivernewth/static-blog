@@ -95,7 +95,16 @@
 
 .post-content ol,
 .post-content ul {
-    padding-inline-start: 20px;
+    padding-inline-start: 40px;
+}
+
+.post-content li {
+    margin-bottom: 15px;
+}
+
+.post-content li:last-child {
+    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .post-content li {
