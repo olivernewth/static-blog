@@ -10,8 +10,6 @@ tags:
 cover:
   image: "https://cdn.newth.ai/68567.jpeg"
   alt: "Journey of growth illustration"
-  caption: "Embarking on a Journey of Growth"
-  relative: false
 ---
 
 A new chapter of personal growth in my life through writing, inspired by Paul Graham's essays and Maggie Appleton's digital garden.

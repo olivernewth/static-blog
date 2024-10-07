@@ -1,17 +1,12 @@
 ---
 date: 2024-04-17T00:00:00-07:00
 draft: false
-params:
-  author: Oliver Grosvenor-Newth
 title: "10 Tools Transforming My Knowledge Management"
 weight: 10
 tags: 
   - Productivity
 cover:
   image: "https://cdn.newth.ai/85894.jpeg"
-  alt: "Productivity tools illustration"
-  caption: "10 Tools Transforming My Knowledge Management"
-  relative: false
 ---
 
 Discover how I use a suite of powerful tools to enhance productivity, streamline workflows, and manage my digital life more efficiently.

@@ -19,7 +19,9 @@ menu:
 params:
   disableThemeToggle: true
   disableScrollToTop: true
+  ShowReadingTime: true
   author: "Oliver Grosvenor-Newth"
+  hideAuthor: true
   description: "I've shipped AI products to billions. Now I'm unpacking what works, what doesn't, and why earning trust is the real moonshot."
   profileMode:
     enabled: true

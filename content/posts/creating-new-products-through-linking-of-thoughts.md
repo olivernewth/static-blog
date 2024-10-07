@@ -10,7 +10,6 @@ tags:
 cover:
   image: "https://cdn.newth.ai/i/2024/04/linking.png"
   alt: "Linking thoughts illustration"
-  caption: "Creating New Ideas By Linking Thoughts"
   relative: false
 ---
 

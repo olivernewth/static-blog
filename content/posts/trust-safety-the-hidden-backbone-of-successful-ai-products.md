@@ -11,7 +11,6 @@ tags:
 cover:
   image: "https://cdn.newth.ai/pb-mn2pzcAfGS.jpeg"
   alt: "Author profile picture"
-  caption: "Oliver Grosvenor-Newth"
   relative: false
 ---
 

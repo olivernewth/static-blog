@@ -11,7 +11,6 @@ tags:
 cover:
   image: "https://cdn.newth.ai/46102.jpeg"
   alt: "Hidden challenges of AI illustration"
-  caption: "The Hidden Challenges of Safe AI"
   relative: false
 ---
 Discover the hidden challenges of AI safety from a product manager's insider perspective.

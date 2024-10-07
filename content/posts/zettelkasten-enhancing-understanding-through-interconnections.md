@@ -10,7 +10,6 @@ tags:
 cover:
   image: "https://cdn.newth.ai/i/2024/04/o1v3r_cover_image_for_article_Zettelkasten_handdrawn_pretty_5f569f31-9ab5-455d-bb89-f4d6c11f3e2b.png"
   alt: "Zettelkasten illustration"
-  caption: "Enhancing Understanding With Zettelkasten"
   relative: false
 ---
 

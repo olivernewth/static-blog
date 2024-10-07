@@ -8,7 +8,6 @@ weight: 10
 cover:
   image: "https://cdn.newth.ai/pb-UgNVwOxk2I.png"
   alt: "Job search illustration"
-  caption: "Mastering the Job Search"
   relative: false
 ---
 
