@@ -101,7 +101,3 @@ Remember, ethical AI isn't a destination; it's an ongoing journey. Stay curious,
 ------------------------------------------------------------------------
 
 About the Author: Oliver Newth is a Senior Product Manager with over 10 years of experience in AI development. Known for pioneering ethical AI practices in high-stakes environments, Oliver has helped shape AI policies at leading tech companies including Meta and Microsoft.
-
-Images sourced from Midjourney v6.
-
-The link has been copied!
