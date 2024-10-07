@@ -1,6 +1,4 @@
 /*
-This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
-
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
 body.home-profile {
@@ -19,12 +17,6 @@ body.home-profile {
     display: flex;
     align-items: center;
 }
-
-.header, .footer {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
 
 h1 {
     /* font-family: 'CO Medium Italic', serif; */

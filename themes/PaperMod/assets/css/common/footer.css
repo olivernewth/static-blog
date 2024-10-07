@@ -1,15 +1,16 @@
 .footer,
 .top-link {
-    font-size: 12px;
+    font-size: 14px;
     color: var(--secondary);
 }
 
 .footer {
-    max-width: calc(var(--main-width) + var(--gap) * 2);
-    margin: auto;
-    padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
-    text-align: center;
-    line-height: 24px;
+    line-height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: baseline;
+
 }
 
 .footer span {
@@ -28,6 +29,18 @@
 
 .footer a:hover {
     border-bottom: 1px solid var(--primary);
+}
+
+.footer ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-left: 20px;
 }
 
 .top-link {

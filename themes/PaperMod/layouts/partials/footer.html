@@ -4,13 +4,14 @@
         {{- if site.Copyright }}
         <span>{{ site.Copyright | markdownify }}</span>
         {{- else }}
-        <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+        <span>&copy; {{ now.Year }} {{ site.Title }}</span>
         {{- end }}
     {{- end }}
 
     {{- with site.Params.footer.text }}
         {{ . | markdownify }}
     {{- end }}
+{{- partial "extend_footer.html" . }}
 
 </footer>
 {{- end }}
@@ -22,8 +23,6 @@
     </svg>
 </a>
 {{- end }}
-
-{{- partial "extend_footer.html" . }}
 
 <script>
     let menu = document.getElementById('menu')

@@ -1,3 +1,14 @@
-{{- /* Footer custom content area start */ -}}
-{{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
-{{- /* Footer custom content area end */ -}}
+<ul id="footer-menu">
+    {{- range site.Menus.footer }}
+    {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
+    <li>
+        <a href="{{ .URL }}" title="{{ .Title }}" >
+            <span>
+                {{- .Pre }}
+                {{- .Name -}}
+                {{ .Post -}}
+            </span>
+        </a>
+    </li>
+    {{- end }}
+</ul>

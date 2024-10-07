@@ -16,9 +16,19 @@ menu:
       name: Contact
       url: /contact/
       weight: 3
+  footer:
+    - identifier: linkedin
+      name: LinkedIn
+      url: https://www.linkedin.com/in/newth/
+      weight: 1
+    - identifier: art
+      name: Art Installations
+      url: https://www.newth.art/
+      weight: 2
 params:
   disableThemeToggle: true
   disableScrollToTop: true
+  disableAnchoredHeadings: true
   ShowReadingTime: true
   author: "Oliver Grosvenor-Newth"
   hideAuthor: true
@@ -27,7 +37,3 @@ params:
     enabled: true
     title: "AI for Good."
     subtitle: "I've shipped AI products to billions. Now I'm unpacking what works, what doesn't, and why earning trust is the real moonshot."
-    #imageUrl: "<image link>" # optional
-    #imageTitle: "<title of image as alt>" # optional
-    #imageWidth: 120 # custom size
-    #imageHeight: 120 # custom size
