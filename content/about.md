@@ -14,8 +14,6 @@ Some highlights of my journey include:
 -   Increasing user engagement on Meta platforms by 75% through enhanced AI-driven features
 - Expanding Azure Cognitive Services to support 25 languages for enterprise clients
 
-You can find more details about my professional experience in my [resume](https://newth.ai/content/files/2024/08/Oliver-Grosvenor-Newth-Resume-1.pdf).
-
 ## Beyond the Office
 
 When I'm not immersed in the world of AI, you'll find me actively contributing to my community. I'm passionate about using technology and art to promote social awareness and inclusivity. Some of my proudest moments include:
@@ -34,12 +32,12 @@ I believe in the power of sharing knowledge and experiences. That's why I regula
 -   Personal Growth and Development
 - Creative Thinking and Idea Generation
 
-Check out my [blog posts](https://newth.ai/) to dive deeper into these topics.
+Check out my [blog posts](https://newth.ai/blog) to dive deeper into these topics.
 
 ## Let's Connect
 
 I'm always excited to discuss new ideas, collaborate on projects, or simply chat about the latest developments in AI and technology. Whether you're a fellow tech enthusiast, a potential collaborator or just curious about my work, feel free to reach out!
 
-You can find me on [LinkedIn](https://linkedin.com/in/newth?ref=newth.ai) or [drop me a message](https://newth.ai/contact/).
+You can find me on [LinkedIn](https://linkedin.com/in/newth) or [drop me a message](https://newth.ai/contact/).
 
 For those interested in AI product management or looking for mentorship, I offer [Product & AI Mentoring](https://newth.ai/mentoring/) sessions. Feel free to book a time to connect!

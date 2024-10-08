@@ -4,7 +4,6 @@
 }
 
 .post-title {
-    margin-bottom: .5em;
     font-size: var(--font-size-heading);
 }
 
@@ -51,28 +50,28 @@
 
 .post-content h1 {
     margin: 40px auto 32px;
-    font-size: 60px;
+    font-size: var(--font-size-heading);
 }
 
 .post-content h2 {
     margin: 32px auto 24px;
-    font-size: 32px;
+    font-size: var(--font-size-h2);
 }
 
 .post-content h3 {
-    font-size: 24px;
+    font-size: var(--font-size-h3);
 }
 
 .post-content h4 {
-    font-size: 16px;
+    font-size: var(--font-size-h4);
 }
 
 .post-content h5 {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-h5);
 }
 
 .post-content h6 {
-    font-size: 12px;
+    font-size:var(--font-size-h6);
 }
 
 .post-content a,

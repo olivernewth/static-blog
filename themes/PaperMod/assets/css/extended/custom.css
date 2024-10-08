@@ -100,7 +100,6 @@ h6 {
 
 .sidenote-number:after,
 .marginnote:before {
-    font-family: et-book-roman-old-style;
     position: relative;
     vertical-align: baseline;
 }
