@@ -1,0 +1,9 @@
+# Hugo-generated files
+public/
+resources/
+static/
+
+# Other files you don't want to format
+node_modules/
+
+themes/

@@ -1,14 +1,17 @@
 ---
-title: "Mentoring"
+title: 'Mentoring'
 layout: single
 wideLayout: true
 ---
 
-Hi there! I'm Oliver, and I'm passionate about helping others level up in their tech careers. With over a decade of experience in AI and product management at companies like Meta, Microsoft, and Covariant, I've got a wealth of knowledge to share.
+Hi there! I'm Oliver, and I'm passionate about helping others level up in their tech careers. With
+over a decade of experience in AI and product management at companies like Meta, Microsoft, and
+Covariant, I've got a wealth of knowledge to share.
 
 ## Why Mentoring?
 
-Look, we all need a little guidance sometimes. Mentoring is like having a secret weapon in your career arsenal. It gives you:
+Look, we all need a little guidance sometimes. Mentoring is like having a secret weapon in your
+career arsenal. It gives you:
 
 - Insider tips from someone who's been there, done that
 - Fresh takes on tricky situations
@@ -35,7 +38,8 @@ I've got experience in a bunch of areas, including:
 
 ## Let's Chat!
 
-Interested in teaming up? Awesome! Shoot me a message on [LinkedIn](https://www.linkedin.com/in/newth/) and we'll set up a time to talk.
+Interested in teaming up? Awesome! Shoot me a message on
+[LinkedIn](https://www.linkedin.com/in/newth/) and we'll set up a time to talk.
 
 Ready to kick your career into high gear? Let's do this!
 

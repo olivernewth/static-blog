@@ -1,10 +1,13 @@
 # Oliver Grosvenor-Newth's Personal Blog
 
-Welcome to the repository for my personal blog, where I explore "AI for Good" and share insights from my experience in the AI industry.
+Welcome to the repository for my personal blog, where I explore "AI for Good" and share insights
+from my experience in the AI industry.
 
 ## About the Blog
 
-This blog is built using [Hugo](https://gohugo.io/), a fast and flexible static site generator, with the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme. It's designed to be a platform where I can unpack what works, what doesn't, and why earning trust is the real moonshot in AI.
+This blog is built using [Hugo](https://gohugo.io/), a fast and flexible static site generator, with
+the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme. It's designed to be a platform
+where I can unpack what works, what doesn't, and why earning trust is the real moonshot in AI.
 
 ## Key Features
 
@@ -24,16 +27,20 @@ To run this blog locally:
 
 ## Deployment
 
-This blog is set up for deployment on [Vercel](https://vercel.com/). The `.gitignore` file is configured to exclude Vercel-specific files and the `node_modules` directory.
+This blog is set up for deployment on [Vercel](https://vercel.com/). The `.gitignore` file is
+configured to exclude Vercel-specific files and the `node_modules` directory.
 
 ## Contributing
 
-While this is a personal blog, I welcome discussions and feedback. Feel free to open an issue for any suggestions or corrections.
+While this is a personal blog, I welcome discussions and feedback. Feel free to open an issue for
+any suggestions or corrections.
 
 ## License
 
-Content on this blog is my own unless otherwise stated. The Hugo PaperMod theme is used under its respective license.
+Content on this blog is my own unless otherwise stated. The Hugo PaperMod theme is used under its
+respective license.
 
 ---
 
-Thank you for visiting my blog repository. I hope you find the content insightful and thought-provoking as we explore the world of AI together.
+Thank you for visiting my blog repository. I hope you find the content insightful and
+thought-provoking as we explore the world of AI together.

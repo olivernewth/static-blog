@@ -1,39 +1,36 @@
 {
-    "version": "2.0.0",
-    "tasks": [
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Hugo Server",
+      "type": "shell",
+      "command": "hugo",
+      "args": ["server", "-D"],
+      "isBackground": true,
+      "problemMatcher": [
         {
-            "label": "Start Hugo Server",
-            "type": "shell",
-            "command": "hugo",
-            "args": [
-                "server",
-                "-D"
-            ],
-            "isBackground": true,
-            "problemMatcher": [
-                {
-                    "pattern": [
-                        {
-                            "regexp": ".",
-                            "file": 1,
-                            "location": 2,
-                            "message": 3
-                        }
-                    ],
-                    "background": {
-                        "activeOnStart": true,
-                        "beginsPattern": "Start building sites",
-                        "endsPattern": "Web Server is available at http://localhost:1313/"
-                    }
-                }
-            ],
-            "presentation": {
-                "reveal": "always",
-                "panel": "new"
-            },
-            "runOptions": {
-                "runOn": "folderOpen"
+          "pattern": [
+            {
+              "regexp": ".",
+              "file": 1,
+              "location": 2,
+              "message": 3
             }
+          ],
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "Start building sites",
+            "endsPattern": "Web Server is available at http://localhost:1313/"
+          }
         }
-    ]
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
 }

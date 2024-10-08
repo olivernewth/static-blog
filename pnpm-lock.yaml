@@ -5,7 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 importers:
-
   .:
     dependencies:
       '@vercel/flags':
@@ -13,9 +12,11 @@ importers:
         version: 2.6.0
 
 packages:
-
   '@vercel/flags@2.6.0':
-    resolution: {integrity: sha512-GvLX0CK/OsIqq672OBvcCeu0k3tb3QdE0lRn1P5zulMQJIPTLlUDEH0y9TeAyC7TMWlpTTT5Bealqu0rmncyXQ==}
+    resolution:
+      {
+        integrity: sha512-GvLX0CK/OsIqq672OBvcCeu0k3tb3QdE0lRn1P5zulMQJIPTLlUDEH0y9TeAyC7TMWlpTTT5Bealqu0rmncyXQ==,
+      }
     peerDependencies:
       '@sveltejs/kit': '*'
       next: '*'
@@ -32,10 +33,12 @@ packages:
         optional: true
 
   jose@5.2.1:
-    resolution: {integrity: sha512-qiaQhtQRw6YrOaOj0v59h3R6hUY9NvxBmmnMfKemkqYmBB0tEc97NbLP7ix44VP5p9/0YHG8Vyhzuo5YBNwviA==}
+    resolution:
+      {
+        integrity: sha512-qiaQhtQRw6YrOaOj0v59h3R6hUY9NvxBmmnMfKemkqYmBB0tEc97NbLP7ix44VP5p9/0YHG8Vyhzuo5YBNwviA==,
+      }
 
 snapshots:
-
   '@vercel/flags@2.6.0':
     dependencies:
       jose: 5.2.1
