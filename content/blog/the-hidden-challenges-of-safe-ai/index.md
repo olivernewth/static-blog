@@ -28,7 +28,7 @@ consequences.
 
 ### 1. The Illusion of Neutrality
 
-![image](https://newth.ai/content/images/2024/07/trapped-mirror.webp)
+![ALT](trapped-mirror.webp)
 
 Many product managers fall into the trap of believing that if they don't explicitly program biases,
 their AI will be neutral. This couldn't be further from the truth. AI systems are only as unbiased
@@ -50,7 +50,7 @@ effort.
 
 ### 2. The Ethics-Speed Paradox
 
-![image](https://newth.ai/content/images/2024/07/judge.png)
+![image](judge.png)
 
 There's an unspoken tension in AI development between moving fast and ensuring ethical safeguards.
 In the tech industry, there's immense pressure to innovate quickly and bring products to market
@@ -69,7 +69,7 @@ we can balance speed with the necessary due diligence to uphold ethical standard
 
 ### 3. The Customization Conundrum
 
-![image](https://newth.ai/content/images/2024/07/customization.webp)
+![image](customization.webp)
 
 As product managers, we love personalization. Tailoring user experiences to individual preferences
 can drive engagement and satisfaction. However, with AI, excessive customization can lead to "filter
@@ -83,7 +83,7 @@ experience but also promotes a healthier information ecosystem.
 
 ### 4. The Transparency Tightrope
 
-![image](https://newth.ai/content/images/2024/07/tightrope.webp)
+![image](tightrope.webp)
 
 While transparency is crucial in building trust and understanding, too much information can
 overwhelm users and potentially allow bad actors to game the system. Finding the right balance
@@ -95,8 +95,6 @@ users to engage with the information at their comfort level, providing transpare
 confusion or enabling exploitation.
 
 ### 5. The Update Dilemma
-
-![image](https://newth.ai/content/images/2024/07/o1v3r_An_abstract_crossroads_where_a_figure_is_stretched_betwee_6d80e46d-13d4-43c4-a6e8-c65f503d8b8f.png)
 
 AI models that learn continuously can drift from their original purpose or ethical guidelines over
 time. As these models evolve, they can start producing outputs that deviate from the initial ethical
