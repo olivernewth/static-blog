@@ -3,11 +3,14 @@
     /* max-width: calc(var(--main-width) + var(--gap) * 2); */
     /* margin: auto;
     padding: var(--gap); */
+    flex: 1;
+    display: flex;
 }
 
 
 .pagination {
     display: flex;
+    flex: 1;
 }
 
 .pagination a {

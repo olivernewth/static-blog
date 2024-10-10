@@ -41,3 +41,7 @@ params:
     subtitle:
       "I've shipped AI products to billions. Now I'm unpacking what works, what doesn't, and why
       earning trust is the real moonshot."
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

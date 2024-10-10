@@ -1,0 +1,27 @@
+{{ $link := .Get "link" | default "newth/mentor-initial" }}
+{{ $text := .Get "text" | default "Schedule a Meeting" }}
+{{ $color := .Get "color" | default "#0056b3" }}
+{{ $hoverColor := .Get "hoverColor" | default "#003d82" }}
+
+<button data-cal-link="{{ $link }}" data-cal-namespace="mentor-initial" data-cal-config='{"layout":"month_view"}' style="
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: {{ $color }};
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+  " onmouseover="this.style.backgroundColor='{{ $hoverColor }}'"
+    onmouseout="this.style.backgroundColor='{{ $color }}'">
+    {{ $text }}
+</button>
+
+<script type="text/javascript">
+    (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+    Cal("init", "mentor-initial", { origin: "https://cal.com" });
+
+    Cal.ns["mentor-initial"]("ui", { "styles": { "branding": { "brandColor": "{{ $color }}" } }, "hideEventTypeDetails": true, "layout": "month_view" });
+</script>
