@@ -3,7 +3,7 @@ date: 2024-10-03T07:34:00-07:00
 draft: false
 params:
   author: Oliver Grosvenor-Newth
-title: 'Trust & Safety: The Hidden Backbone of Successful AI Products'
+title: 'Trust and Safety: The Hidden Backbone of Successful AI Products'
 weight: 10
 tags:
   - Artificial Intelligence
@@ -83,4 +83,4 @@ safety measures. It's not just about creating cutting-edge technology; it's abou
 technology that people can trust and rely on in their daily lives.
 
 By prioritizing trust and safety in our product strategies, we're not just building better
-products'we're building a better, safer digital future for all.
+products, we're building a better, safer digital future for all.
