@@ -17,14 +17,18 @@ menu:
       url: /contact/
       weight: 3
   footer:
+    - identifier: mentoring
+      name: Mentoring
+      url: /mentoring/
+      weight: 1
     - identifier: linkedin
       name: LinkedIn
       url: https://www.linkedin.com/in/newth/
-      weight: 1
+      weight: 2
     - identifier: art
       name: Art Installations
       url: https://www.newth.art/
-      weight: 2
+      weight: 3
 params:
   disableThemeToggle: true
   disableScrollToTop: true
