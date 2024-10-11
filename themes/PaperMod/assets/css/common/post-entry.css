@@ -38,9 +38,7 @@
     margin-bottom: var(--gap);
     padding: var(--gap);
     background: var(--entry);
-    border-radius: var(--radius);
     transition: transform 0.1s;
-    border: 1px solid var(--border);
 }
 
 .post-entry:active {
@@ -93,10 +91,11 @@
     font-size: var(--font-size-small);
     margin-bottom: var(--gap);
     text-align: center;
+    border-radius: var(--radius);
+
 }
 
 .entry-cover img {
-    border-radius: var(--radius);
     pointer-events: none;
     width: 100%;
     height: auto;

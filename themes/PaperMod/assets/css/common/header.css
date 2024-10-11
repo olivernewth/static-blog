@@ -67,7 +67,7 @@ body:not(.dark) #sun {
 }
 
 #menu a {
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-small);
     line-height: 26px;
     position: relative; /* Position relative for the pseudo-element */
     overflow: hidden; /* Hide overflow for the underline */

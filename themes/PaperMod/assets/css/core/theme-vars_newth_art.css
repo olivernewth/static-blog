@@ -1,20 +1,5 @@
 :root {
-    --gap: 24px;
-    --content-gap: 20px;
-    --nav-width: 1024px;
-    --main-width: 720px;
-    --header-height: 70px;
-    --footer-height: 70px;
-    --font-size-heading: 3rem;
-    --font-size-h2: 2rem;
-    --font-size-h3: 1.6rem;
-    --font-size-h4: var(--font-size-h3);
-    --font-size-h5: var(--font-size-h3);
-    --font-size-h6: var(--font-size-h3);
-    --font-size-base: 1.2rem;
-    --font-size-small: 1.1rem;
-    --radius: 4px;
-    --theme: rgb(240, 239, 235);
+    --theme: rgb(255, 255, 255);
     --entry: rgb(255, 255, 255);
     --primary: rgb(30, 36, 46);
     --secondary: var(--primary);
@@ -24,7 +9,7 @@
     --code-bg: rgb(255, 255, 255);
     --border: rgb(238, 238, 238);
 
-    --background-color-light: #f0efeb;
+    --background-color-light: #ffffff;
     --background-color-dark: #000;
 }
 

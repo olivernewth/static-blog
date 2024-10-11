@@ -5,15 +5,23 @@
     }
     .entry-cover {
         height: 70vh;
+        margin: 3em 0;
+        img {
+            object-fit: cover;
+        }
     }
+    section { 
+        margin-top:0;
+        padding-top:0;
+    }
+    img {
+        margin-top:0em;
+        }
+
     .post-content {
         p, ol, ul, table {
             margin-left: auto;
             margin-right: auto;            
-        }
-        img {
-            margin-top:4em;
-            margin-bottom: 2em;
         }
     }
     ul.project-tags {
@@ -25,5 +33,13 @@
     ul.project-tags li {
         display: inline; /* Display list items inline */
         margin-right: 10px; /* Add some space between items */
+}
+.wide-container {
+    position: relative; width: 100%; padding-bottom: 60%; overflow: hidden; margin: 3em 0;
+    height: 0;
+    border-radius: var(--radius);
+    image {
+        position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;
+    }
 }
 }

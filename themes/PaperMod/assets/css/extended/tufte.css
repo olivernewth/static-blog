@@ -127,16 +127,6 @@ section {
     padding-bottom: 1rem;
 }
 
-.main {
-p,
-    dl,
-    ol,
-    ul {
-        font-size: 1.4rem;
-        line-height: 2rem;
-    }
-}
-
 p {
     margin-top: 1.4rem;
     margin-bottom: 1.4rem;
