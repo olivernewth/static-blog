@@ -13,5 +13,6 @@ For World AIDS Day, I had the honor of creating the "Circle of Light" installati
 
 In designing "Circle of Light," I wanted a space for people to gather and honor those we’ve lost. The broken circles poignantly represent the voids left by our loved ones. As the light illuminated the circle, it highlighted our unity and resilience, while the gaps reminded us of those no longer with us. This installation embodied our collective commitment to remembrance and the ongoing fight against HIV/AIDS.
 
-![hff](circleoflight_2.jpeg)
-![hff](circleoflight_3.jpeg)
+{{< wideimage "circleoflight_2.jpeg" "Close up of circle" >}}
+
+{{< wideimage "circleoflight_3.jpeg" "View of colorful circle" >}}

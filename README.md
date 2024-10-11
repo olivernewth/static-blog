@@ -37,10 +37,4 @@ any suggestions or corrections.
 
 ## License
 
-Content on this blog is my own unless otherwise stated. The Hugo PaperMod theme is used under its
-respective license.
-
----
-
-Thank you for visiting my blog repository. I hope you find the content insightful and
-thought-provoking as we explore the world of AI together.
+Content on this blog is my own unless otherwise stated. The Hugo PaperMod theme is used under its respective license.

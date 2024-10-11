@@ -16,3 +16,6 @@ This climbable structure welcomes all to step inside, embodying the art themselv
 
 It's through the communal engagement and the presence of those gathered that the artwork undergoes its transformation, revealing new identities. As darkness falls, these newfound personas are cast across the playa, their silhouettes dancing in the light emanating from within.
 
+{{< wideimage "them_2.jpg" "THEM artpiece" >}}
+
+{{< wideimage "them_3.jpg" "Another view" >}}
