@@ -2,7 +2,12 @@
 .post-header {
     margin: 5rem 0;
 }
-
+.post-single {
+    .entry-cover {
+        max-height: 25em;
+        margin-bottom:4em;
+    }
+}
 .post-title {
     font-size: var(--font-size-heading);
 }
