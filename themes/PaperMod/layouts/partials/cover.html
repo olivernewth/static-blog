@@ -5,26 +5,37 @@
 <figure class="entry-cover">
     {{- $responsiveImages := (.Params.cover.responsiveImages | default site.Params.cover.responsiveImages) | default true }}
     {{- $addLink := (and site.Params.cover.linkFullImages $.IsSingle) }}
-    {{- $pageBundleCover     := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+    {{- $pageBundleCover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
     {{- $globalResourcesCover := (resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
     {{- $cover := (or $pageBundleCover $globalResourcesCover)}}
     {{- if $cover -}}{{/* i.e it is present in page bundle */}}
         {{- if $addLink }}<a href="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" target="_blank"
             rel="noopener noreferrer">{{ end -}}
-        {{- $sizes := (slice "360" "480" "720" "1080" "1500") }}
+        {{- $sizes := (slice "360" "480" "720" "1080" "1500" "1800" "2100") }}
         {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
         {{- if hugo.IsExtended -}}
             {{- $processableFormats = $processableFormats | append "webp" -}}
         {{- end -}}
         {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
         {{- if (and (in $processableFormats $cover.MediaType.SubType) ($responsiveImages) (eq $prod true)) }}
-        <img loading="{{$loading}}" srcset="{{- range $size := $sizes -}}
-                        {{- if (ge $cover.Width $size) -}}
-                        {{ printf "%s %s" (($cover.Resize (printf "%sx" $size)).Permalink) (printf "%sw ," $size) -}}
-                        {{ end }}
-                    {{- end -}}{{$cover.Permalink }} {{printf "%dw" ($cover.Width)}}" 
-            sizes="(min-width: 768px) 720px, 100vw" src="{{ $cover.Permalink }}" alt="{{ $alt }}" 
-            width="{{ $cover.Width }}" height="{{ $cover.Height }}">
+        <picture>
+            {{- range $i, $size := $sizes -}}
+                {{- $sizeInt := int $size -}}
+                {{- if (ge $cover.Width $sizeInt) -}}
+                    {{- $resized := $cover.Resize (printf "%dx" $sizeInt) -}}
+                    <source 
+                        media="(max-width: {{ $size }}px)" 
+                        srcset="{{ $resized.Permalink }}"
+                        width="{{ $resized.Width }}"
+                        height="{{ $resized.Height }}">
+                {{- end -}}
+            {{- end -}}
+            <img loading="{{$loading}}" 
+                src="{{ $cover.Permalink }}" 
+                alt="{{ $alt }}" 
+                width="{{ $cover.Width }}" 
+                height="{{ $cover.Height }}">
+        </picture>
         {{- else }}{{/* Unprocessable image or responsive images disabled */}}
         <img loading="{{$loading}}" src="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" alt="{{ $alt }}">
         {{- end }}
