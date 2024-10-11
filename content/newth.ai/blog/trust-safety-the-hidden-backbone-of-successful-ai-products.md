@@ -82,5 +82,5 @@ The future leaders in AI will be those who can successfully balance innovation w
 safety measures. It's not just about creating cutting-edge technology; it's about creating
 technology that people can trust and rely on in their daily lives.
 
-By prioritizing trust and safety in our product strategies, we're not just building better
-products, we're building a better, safer digital future for all.
+By prioritizing trust and safety in our product strategies, we're not just building better products,
+we're building a better, safer digital future for all.

@@ -37,4 +37,5 @@ any suggestions or corrections.
 
 ## License
 
-Content on this blog is my own unless otherwise stated. The Hugo PaperMod theme is used under its respective license.
+Content on this blog is my own unless otherwise stated. The Hugo PaperMod theme is used under its
+respective license.
