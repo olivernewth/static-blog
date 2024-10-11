@@ -1,5 +1,5 @@
 ---
-title: 'About Oliverxx'
+title: 'About Oliverxxx'
 ---
 
 I'm Oliver, an AI Product Leader based in San Francisco. With over a decade of experience at
