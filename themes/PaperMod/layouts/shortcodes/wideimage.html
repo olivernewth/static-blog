@@ -1,3 +1,17 @@
 <div class="wide-container">
-  <img src="{{ .Get 0 }}" alt="{{ .Get 1 }}">
+  {{ $original := .Get 0 }}
+  {{ $alt := .Get 1 }}
+  {{ $image := .Page.Resources.GetMatch $original }}
+  {{ if $image }}
+    {{ $small := $image.Resize "480x" }}
+    {{ $medium := $image.Resize "768x" }}
+    {{ $large := $image.Resize "1024x" }}
+    <img 
+      src="{{ $image.RelPermalink }}" 
+      alt="{{ $alt }}" 
+      srcset="{{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 768w, {{ $large.RelPermalink }} 1024w" 
+      sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1024px">
+  {{ else }}
+    <p>Image not found: {{ $original }}</p>
+  {{ end }}
 </div>
