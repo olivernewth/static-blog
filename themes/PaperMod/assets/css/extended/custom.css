@@ -179,6 +179,8 @@ figure.entry-cover img {
         .entry-cover {
             margin:0;
             height: 30vh;
+            object-fit: cover;
+            display: block;
         }
         p {
             margin:.5em 0;
