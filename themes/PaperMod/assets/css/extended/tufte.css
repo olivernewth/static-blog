@@ -74,8 +74,6 @@ body {
 
 h1 {
     font-family: "CO Medium", et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;    font-weight: 400;
-    margin-top: 4rem;
-    margin-bottom: 1.5rem;
     font-size: var(--font-size-heading);
 }
 
