@@ -16,5 +16,3 @@ In designing "Circle of Light," I wanted a space for people to gather and honor 
 {{< wideimage "circleoflight_2.jpeg" "Close up of circle" >}}
 
 {{< wideimage "circleoflight_3.jpeg" "View of colorful circle" >}}
-
-!["test"](circleoflight_3.jpeg)
