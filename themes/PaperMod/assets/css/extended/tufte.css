@@ -170,21 +170,22 @@ blockquote footer {
     font-size: var(--font-size-small);
     text-align: right;
 }
-
-section > p,
-.main ol,
-.main ul,
-h2,h3,h4,h5,h6,
-section > footer,
-section > table {
+section {
+ p,
+ol,
+ul,
+ h2,h3,h4,h5,h6,
+footer,
+ table {
     width: 55%;
+}
+
 }
 
 /* 50 + 5 == 55, to be the same width as paragraph */
 section > dl,
 section > ol,
 section > ul {
-    width: 50%;
     -webkit-padding-start: 5%;
 }
 .main {
