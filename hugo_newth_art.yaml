@@ -32,6 +32,7 @@ menu:
       weight: 3
 params:
   themeVarsCSS: 'css/core/theme-vars_newth_art.css'
+  defaultTheme: dark
   disableThemeToggle: true
   disableScrollToTop: true
   disableAnchoredHeadings: true
