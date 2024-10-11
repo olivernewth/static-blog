@@ -1,4 +1,5 @@
-baseURL: https://newth.ai
+baseURL: https://newth.art
+contentDir: 'content/newth.art'
 languageCode: 'en-us'
 title: 'Oliver Grosvenor-Newth'
 theme: 'PaperMod'
@@ -36,15 +37,11 @@ params:
   ShowReadingTime: true
   author: 'Oliver Grosvenor-Newth'
   hideAuthor: true
-  description:
-    "I've shipped AI products to billions. Now I'm unpacking what works, what doesn't, and why
-    earning trust is the real moonshot."
+  description: 'Exploring the intersection of art and technology.'
   profileMode:
     enabled: true
-    title: 'AI for Good.'
-    subtitle:
-      "I've shipped AI products to billions. Now I'm unpacking what works, what doesn't, and why
-      earning trust is the real moonshot."
+    title: 'Art Installations.'
+    subtitle: 'Exploring the intersection of art and technology.'
 markup:
   goldmark:
     renderer:

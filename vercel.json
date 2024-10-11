@@ -5,7 +5,5 @@
       "HUGO_ENV": "production"
     }
   },
-  "buildCommand": "hugo --gc --ignoreCache --minify --buildFuture --buildExpired",
-  "outputDirectory": "public",
   "framework": "hugo"
 }
