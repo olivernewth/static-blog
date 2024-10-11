@@ -5,5 +5,15 @@
       "HUGO_ENV": "production"
     }
   },
-  "framework": "hugo"
+  "framework": "hugo",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "public"
+      }
+    }
+  ],
+  "cache": ["node_modules"]
 }
