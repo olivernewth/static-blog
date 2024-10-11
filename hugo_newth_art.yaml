@@ -5,9 +5,9 @@ title: 'Oliver Grosvenor-Newth'
 theme: 'PaperMod'
 menu:
   main:
-    - identifier: blog
-      name: Blog
-      url: /blog/
+    - identifier: Projects
+      name: Projects
+      url: /projects/
       weight: 1
     - identifier: about
       name: About
@@ -18,18 +18,14 @@ menu:
       url: /contact/
       weight: 3
   footer:
-    - identifier: mentoring
-      name: Mentoring
-      url: /mentoring/
+    - identifier: instagram
+      name: Instagram
+      url: https://www.instagram.com/lightsbyoliver
       weight: 1
-    - identifier: linkedin
-      name: LinkedIn
-      url: https://www.linkedin.com/in/newth/
+    - identifier: ai
+      name: AI and Product
+      url: https://www.newth.ai/
       weight: 2
-    - identifier: art
-      name: Art Installations
-      url: https://www.newth.art/
-      weight: 3
 params:
   disableThemeToggle: true
   disableScrollToTop: true
@@ -37,11 +33,15 @@ params:
   ShowReadingTime: true
   author: 'Oliver Grosvenor-Newth'
   hideAuthor: true
-  description: 'Exploring the intersection of art and technology.'
+  description:
+    "I'm Oliver, an immersive light artist creating large-scale illuminated installations for
+    Burning Man, urban landscapes and public spaces."
   profileMode:
     enabled: true
-    title: 'Art Installations.'
-    subtitle: 'Exploring the intersection of art and technology.'
+    title: 'Creating immersive experiences that inspire awe.'
+    subtitle:
+      "I'm Oliver, an immersive light artist creating large-scale illuminated installations for
+      Burning Man, urban landscapes and public spaces."
 markup:
   goldmark:
     renderer:

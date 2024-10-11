@@ -166,3 +166,27 @@ figure.entry-cover img {
     height: 100%;
     object-fit: cover;
 }
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+    width: 100%;
+    margin-bottom:2em;
+    article {
+        margin-bottom: 0;
+        padding: 0;
+        position: relative;
+        .entry-cover {
+            margin:0;
+            max-height: 30vh;
+        }
+        p {
+            margin:.5em 0;
+        }
+    }
+}
+
+.small, .small p, .main .small p {
+    font-size: var(--font-size-small);
+}

@@ -1,61 +1,32 @@
 ---
-title: 'About Oliverxxx'
+title: 'About Oliver'
 ---
 
-I'm Oliver, an AI Product Leader based in San Francisco. With over a decade of experience at
-companies like Meta, Microsoft and most recently Covariant, I've been at the forefront of developing
-innovative AI solutions that are reshaping how we interact with technology in our daily lives and in
-the physical world.
+As an artist at the intersection of light, technology, and human experience, I create immersive installations that inspire, provoke thought, and illuminate our shared humanity.
 
-## Professional Journey
+## My Artistic Vision
 
-My career has been driven by a passion for leveraging AI to create impactful products. From leading
-the development of AI-powered robotics at Covariant to enhancing user experiences at Meta and
-expanding language AI capabilities at Microsoft, I've consistently pushed the boundaries of what's
-possible with machine learning and artificial intelligence.
+My work explores the transformative power of light and interactivity in public spaces. I believe that art has the ability to create moments of collective wonder, foster community connections, and shine a light on important social issues.
 
-Some highlights of my journey include:
+## Notable Projects
 
-- Spearheading AI robotics solutions at Covariant, working on technology that allows robots to learn
-  skills much like chatbots do
-- Increasing user engagement on Meta platforms by 75% through enhanced AI-driven features
-- Expanding Azure Cognitive Services to support 25 languages for enterprise clients
+- **Illuminating the Pink Triangle**: A beacon of resilience and hope over San Francisco, created in collaboration with [Illuminate.org](https://illuminate.org/?ref=newth.ai) and the [National AIDS Memorial](https://www.aidsmemorial.org/?ref=newth.ai).
+- **Circle of Light**: An illuminated installation for World AIDS Day 2021, focusing on remembrance and hope.
+- **THEM (2022-2023)**: A 30-foot climbable art installation at Burning Man, conceived by Simón Malvaez and brought to life through collaboration with Brenden Darby.
 
-## Beyond the Office
+## Collaborations and Partnerships
 
-When I'm not immersed in the world of AI, you'll find me actively contributing to my community. I'm
-passionate about using technology and art to promote social awareness and inclusivity. Some of my
-proudest moments include:
+I've had the privilege of working with esteemed organizations and events, including:
 
-- Collaborating with [Illuminate](https://illuminate.org/?ref=newth.ai) to bring inspiring public
-  art projects to life, such as
-  [The Pink Triangle](https://illuminate.org/projects/the-pink-triangle/?ref=newth.ai)
-- Creating LGBTQ+ themed art installations for events like World AIDS Day and Burning Man
-- Participating in the [AIDS Lifecycle](https://www.aidslifecycle.org/?ref=newth.ai), cycling 545
-  miles from San Francisco to Los Angeles
+- Burning Man
+- Electroluxx
+- Illuminate.org
+- National AIDS Memorial
 
-## Sharing Knowledge
+## My Approach
 
-I believe in the power of sharing knowledge and experiences. That's why I regularly write about
-various topics related to AI, product management, and personal growth. You can find my latest
-thoughts on:
+Each project I undertake is a unique journey, blending cutting-edge technology with artistic vision to create experiences that resonate on a deeply human level. Whether it's a towering sculpture at Burning Man or a city-wide light installation, my goal is always to create art that invites participation, reflection, and connection.
 
-- Trust & Safety in AI Products
-- The Hidden Challenges of Safe AI
-- Knowledge Management Tools
-- Personal Growth and Development
-- Creative Thinking and Idea Generation
+## Let's Create Something Illuminating
 
-Check out my [blog posts](https://newth.ai/blog) to dive deeper into these topics.
-
-## Let's Connect
-
-I'm always excited to discuss new ideas, collaborate on projects, or simply chat about the latest
-developments in AI and technology. Whether you're a fellow tech enthusiast, a potential collaborator
-or just curious about my work, feel free to reach out!
-
-You can find me on [LinkedIn](https://linkedin.com/in/newth) or
-[drop me a message](https://newth.ai/contact/).
-
-For those interested in AI product management or looking for mentorship, I offer
-[Product & AI Mentoring](https://newth.ai/mentoring/) sessions. Feel free to book a time to connect!
+I'm always excited to explore new collaborations and push the boundaries of what's possible with light and art. If you have a project in mind or would like to discuss potential collaborations, please don't hesitate to reach out.

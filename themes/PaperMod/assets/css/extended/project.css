@@ -1,0 +1,19 @@
+.project-single {
+    padding-bottom:0;
+    h1 { 
+        margin:0.5em 0;
+    }
+    .entry-cover {
+        height: 70vh;
+    }
+    .post-content {
+        p, ol, ul, table {
+            margin-left: auto;
+            margin-right: auto;            
+        }
+        img {
+            margin-top:2em;
+            margin-bottom: 2em;
+        }
+    }
+}

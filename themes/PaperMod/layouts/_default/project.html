@@ -1,0 +1,50 @@
+{{- define "main" }}
+<article class="project-single">
+    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms $tags) }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+  <h1 class="post-title">{{ .Title }}{{ with .Params.year }} <span class="project-year">- {{ . }}</span>
+{{ end }}</h1>
+
+{{ with .Params.Summary }}
+    <p class="project-summary">{{ . }}</p>
+{{ end }}
+  </header>
+
+    {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
+    {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
+
+  <section class="post-meta">
+    {{- partial "post_meta.html" . -}}
+    {{- partial "translation_list.html" . -}}
+    {{- partial "edit_post.html" . -}}
+    {{- partial "post_canonical.html" . -}}
+  </section>
+  {{- if (.Param "ShowToc") }}
+  {{- partial "toc.html" . }}
+  {{- end }}
+  {{- if .Content }}
+  <section class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </section>
+  {{- end }}
+
+  <footer class="post-footer">
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "post_nav_links.html" . }}
+    {{- end }}
+    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
+    {{- partial "share_icons.html" . -}}
+    {{- end }}
+  </footer>
+
+  {{- if (.Param "comments") }}
+  {{- partial "comments.html" . }}
+  {{- end }}
+</article>
+{{- end }}
