@@ -73,6 +73,10 @@ a {
     text-decoration: none;
 }
 
+.post-content a {
+    text-decoration: underline;;
+}
+
 body,
 figure,
 ul {
