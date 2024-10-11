@@ -1,20 +1,20 @@
 <div class="wide-container">
   {{ $original := .Get 0 }}
   {{ $alt := .Get 1 }}
-  {{ with .Page.Resources.GetMatch $original }}
-    {{ $small := .Resize "480x" }}
-    {{ $medium := .Resize "768x" }}
-    {{ $large := .Resize "1024x" }}
+  {{ $image := .Page.Resources.GetMatch $original }}
+  
+  {{ if $image }}
+    {{ $small := $image.Resize "480x" }}
+    {{ $medium := $image.Resize "768x" }}
+    {{ $large := $image.Resize "1024x" }}
     <picture>
       <source media="(max-width: 480px)" srcset="{{ $small.RelPermalink }}">
       <source media="(max-width: 768px)" srcset="{{ $medium.RelPermalink }}">
       <source media="(min-width: 769px)" srcset="{{ $large.RelPermalink }}">
       <img 
-        src="{{ .RelPermalink }}" 
+        src="{{ $image.RelPermalink }}" 
         alt="{{ $alt }}"
-        loading="lazy"
-        width="{{ .Width }}"
-        height="{{ .Height }}">
+        loading="lazy">
     </picture>
   {{ else }}
     <p>Image not found: {{ $original }}</p>
