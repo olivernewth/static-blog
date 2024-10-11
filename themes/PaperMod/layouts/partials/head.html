@@ -9,6 +9,7 @@
 
 {{- /* Title */}}
 <title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
+<link rel="preload" href="/fonts/co-medium.woff2" as="font" type="font/woff2" crossorigin>
 
 {{- /* Meta */}}
 {{- if .IsHome }}
