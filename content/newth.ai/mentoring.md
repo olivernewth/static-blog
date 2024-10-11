@@ -39,9 +39,9 @@ My experience spans several key areas:
 
 Think we might be a good fit? Great! Click below to find a time.
 
-{{< cal-button text="Schedule an Intro Session"
-
-> }}
+{{< cal-button 
+    text="Schedule an Intro Session" 
+>}}
 
 Ready to elevate your career? Let's make it happen!
 
