@@ -5,7 +5,10 @@
       "label": "Start Hugo Server (newth.ai)",
       "type": "shell",
       "command": "hugo",
-      "args": ["server", "--config", "hugo_newth_ai.yaml"],
+      "args": ["server", "--environment", "newth_ai", "--port", "1313"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "isBackground": true,
       "problemMatcher": [
         {
@@ -20,23 +23,19 @@
           "background": {
             "activeOnStart": true,
             "beginsPattern": "Start building sites",
-            "endsPattern": "Web Server is available"
+            "endsPattern": "Web Server is available at"
           }
         }
-      ],
-      "presentation": {
-        "reveal": "always",
-        "panel": "new"
-      },
-      "runOptions": {
-        "runOn": "folderOpen"
-      }
+      ]
     },
     {
       "label": "Start Hugo Server (newth.art)",
       "type": "shell",
       "command": "hugo",
-      "args": ["server", "--config", "hugo_newth_art.yaml"],
+      "args": ["server", "--environment", "newth_art", "--port", "1314"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "isBackground": true,
       "problemMatcher": [
         {
@@ -49,15 +48,49 @@
             }
           ],
           "background": {
+            "activeOnStart": true,
             "beginsPattern": "Start building sites",
-            "endsPattern": "Web Server is available"
+            "endsPattern": "Web Server is available at"
           }
         }
-      ],
-      "presentation": {
-        "reveal": "always",
-        "panel": "new"
+      ]
+    },
+    {
+      "label": "Start Both Hugo Servers",
+      "dependsOn": ["Start Hugo Server (newth.ai)", "Start Hugo Server (newth.art)"],
+      "dependsOrder": "parallel",
+      "problemMatcher": []
+    },
+    {
+      "label": "Build Hugo Site (newth.ai)",
+      "type": "shell",
+      "command": "hugo",
+      "args": ["--config", "hugo_newth_ai.yaml", "--minify"],
+      "group": "build",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}"
       }
+    },
+    {
+      "label": "Build Hugo Site (newth.art)",
+      "type": "shell",
+      "command": "hugo",
+      "args": ["--config", "hugo_newth_art.yaml", "--minify"],
+      "group": "build",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "Build Both Hugo Sites",
+      "dependsOn": ["Build Hugo Site (newth.ai)", "Build Hugo Site (newth.art)"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
     }
   ]
 }

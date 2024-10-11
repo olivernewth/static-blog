@@ -51,8 +51,13 @@
 
 {{- $theme_vars := (resources.Get "css/core/theme-vars.css") }}
 
-{{- $theme_vars_custom_path := .Site.Params.themeVarsCSS }}
-{{- $theme_vars_custom := (resources.Get $theme_vars_custom_path) }}
+{{- $theme_vars_custom := resources.Get "css/core/theme-vars.css" }}
+{{- if .Site.Params.themeVarsCSS }}
+    {{- $custom_css := resources.Get .Site.Params.themeVarsCSS }}
+    {{- if $custom_css }}
+        {{- $theme_vars_custom = $custom_css }}
+    {{- end }}
+{{- end }}
 
 {{- $reset := (resources.Get "css/core/reset.css") }}
 {{- $media := (resources.Get "css/core/zmedia.css") }}

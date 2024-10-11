@@ -1,0 +1,41 @@
+baseURL: https://newth.ai
+contentDir: 'content/newth.ai'
+publishDir: 'public/newth.ai'
+params:
+  themeVarsCSS: 'css/core/theme-vars_newth_ai.css'
+  description:
+    "I've shipped AI products to billions. Now I'm unpacking what works, what doesn't, and why
+    earning trust is the real moonshot."
+  profileMode:
+    enabled: true
+    title: 'AI for Good.'
+    subtitle:
+      "I've shipped AI products to billions. Now I'm unpacking what works, what doesn't, and why
+      earning trust is the real moonshot."
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 1
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 2
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 3
+  footer:
+    - identifier: mentoring
+      name: Mentoring
+      url: /mentoring/
+      weight: 1
+    - identifier: linkedin
+      name: LinkedIn
+      url: https://www.linkedin.com/in/newth/
+      weight: 2
+    - identifier: art
+      name: Art Installations
+      url: https://www.newth.art/
+      weight: 3
