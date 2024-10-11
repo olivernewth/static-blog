@@ -40,7 +40,16 @@
 }
 
 @font-face {
-    font-family: 'CO Medium Italic';
+    font-family: 'CO Medium';
+    src: url('/fonts/co-medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'CO Medium';
     src: url('/fonts/co-medium-italic.woff2') format('woff2');
     font-weight: 500;
     font-style: italic;
@@ -64,7 +73,7 @@ body {
 
 
 h1 {
-    font-family: "CO Medium Italic", et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;    font-weight: 400;
+    font-family: "CO Medium", et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;    font-weight: 400;
     margin-top: 4rem;
     margin-bottom: 1.5rem;
     font-size: var(--font-size-heading);
