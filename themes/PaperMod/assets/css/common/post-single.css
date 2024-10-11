@@ -4,6 +4,7 @@
 }
 .post-single {
     .entry-cover {
+        height: 25em;
         max-height: 25em;
         margin-bottom:4em;
     }
