@@ -16,4 +16,14 @@
             margin-bottom: 2em;
         }
     }
+    ul.project-tags {
+        list-style-type: none; /* Remove bullets */
+        padding: 0; /* Remove default padding */
+        margin: 0; /* Remove default margin */
+    }
+
+    ul.project-tags li {
+        display: inline; /* Display list items inline */
+        margin-right: 10px; /* Add some space between items */
+}
 }

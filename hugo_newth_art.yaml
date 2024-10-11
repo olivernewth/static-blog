@@ -27,6 +27,7 @@ menu:
       url: https://www.newth.ai/
       weight: 2
 params:
+  themeVarsCSS: 'css/core/theme-vars_newth_art.css'
   disableThemeToggle: true
   disableScrollToTop: true
   disableAnchoredHeadings: true
