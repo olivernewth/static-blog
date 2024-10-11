@@ -4,7 +4,7 @@ summary: Illuminating Remembrance and Hope with an illuminated installation crea
 tags:
   - National AIDS Memorial
 cover:
-  image: 'circleoflight_1.webp'
+  image: 'circleoflight.jpeg'
 layout: 'project'
 year: 2022
 ---
