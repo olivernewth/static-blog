@@ -2,10 +2,10 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Start Hugo Server",
+      "label": "Start Hugo Server (newth.ai)",
       "type": "shell",
       "command": "hugo",
-      "args": ["server", "-D"],
+      "args": ["server", "--config", "hugo_newth_ai.yaml"],
       "isBackground": true,
       "problemMatcher": [
         {
@@ -20,7 +20,7 @@
           "background": {
             "activeOnStart": true,
             "beginsPattern": "Start building sites",
-            "endsPattern": "Web Server is available at http://localhost:1313/"
+            "endsPattern": "Web Server is available"
           }
         }
       ],
@@ -30,6 +30,33 @@
       },
       "runOptions": {
         "runOn": "folderOpen"
+      }
+    },
+    {
+      "label": "Start Hugo Server (newth.art)",
+      "type": "shell",
+      "command": "hugo",
+      "args": ["server", "--config", "hugo_newth_art.yaml"],
+      "isBackground": true,
+      "problemMatcher": [
+        {
+          "pattern": [
+            {
+              "regexp": ".",
+              "file": 1,
+              "location": 2,
+              "message": 3
+            }
+          ],
+          "background": {
+            "beginsPattern": "Start building sites",
+            "endsPattern": "Web Server is available"
+          }
+        }
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
       }
     }
   ]

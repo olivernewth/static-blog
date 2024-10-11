@@ -50,6 +50,10 @@
 {{- $includes_all := $includes | resources.Concat "assets/css/includes.css" }}
 
 {{- $theme_vars := (resources.Get "css/core/theme-vars.css") }}
+
+{{- $theme_vars_custom_path := .Site.Params.themeVarsCSS }}
+{{- $theme_vars_custom := (resources.Get $theme_vars_custom_path) }}
+
 {{- $reset := (resources.Get "css/core/reset.css") }}
 {{- $media := (resources.Get "css/core/zmedia.css") }}
 {{- $license_css := (resources.Get "css/core/license.css") }}
@@ -60,7 +64,7 @@
 {{- $chroma_mod := (resources.Get "css/includes/chroma-mod.css") }}
 
 {{- /* order is important */}}
-{{- $core := (slice $theme_vars $reset $common $chroma_styles $chroma_mod $includes_all $media) | resources.Concat "assets/css/core.css" | resources.Minify }}
+{{- $core := (slice $theme_vars $theme_vars_custom $reset $common $chroma_styles $chroma_mod $includes_all $media) | resources.Concat "assets/css/core.css" | resources.Minify }}
 {{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" | resources.Minify }}
 
 {{- /* bundle all required css */}}

@@ -1,4 +1,5 @@
 baseURL: https://newth.ai
+contentDir: 'content/newth.ai'
 languageCode: 'en-us'
 title: 'Oliver Grosvenor-Newth'
 theme: 'PaperMod'
@@ -30,6 +31,7 @@ menu:
       url: https://www.newth.art/
       weight: 3
 params:
+  themeVarsCSS: 'css/core/theme-vars_newth_ai.css'
   disableThemeToggle: true
   disableScrollToTop: true
   disableAnchoredHeadings: true
