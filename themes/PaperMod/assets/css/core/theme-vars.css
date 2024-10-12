@@ -44,3 +44,9 @@
 .dark.list {
     background: var(--theme);
 }
+
+@media (max-width: 760px) {
+    :root {
+        --font-size-heading: 2.5rem;
+    }
+}

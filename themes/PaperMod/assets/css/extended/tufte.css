@@ -385,6 +385,10 @@ label.margin-toggle:not(.sidenote-number) {
         padding-right: 8%;
     }
 
+    article {
+        padding: 2rem 0;
+    }
+
     hr,
     section > p,
     .main ol,
@@ -393,6 +397,20 @@ label.margin-toggle:not(.sidenote-number) {
     section > footer,
     section > table {
         width: 100%;
+    }
+
+    section {
+
+            hr,
+            section > p,
+            .main ol,
+            .main ul,
+            h2,h3,h4,h5,h6,
+            section > footer,
+            section > table {
+                width: 100%;
+            }
+
     }
 
     pre > code {
