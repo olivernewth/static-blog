@@ -1,5 +1,5 @@
 {{ if .IsHome }}{{ $class := "home-profile" }}{{ end }}
-<div class="profile">
+<main class="profile">
     {{- with site.Params.profileMode }}
     <div class="profile_inner">
         {{- if .imageUrl -}}
@@ -56,7 +56,7 @@
         {{- end }}
     </div>
     {{- end}}
-</div>
+</main>
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" as="script">
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js" as="script">
 <link rel="preload" href="{{ "js/vanta.topology.min.js" | absURL }}" as="script">
@@ -66,28 +66,32 @@
 <script>
 
     document.addEventListener('DOMContentLoaded', function () {
-        // Get the computed styles of the document
-        const computedStyles = getComputedStyle(document.documentElement);
+                // Get the computed styles of the document
+                const computedStyles = getComputedStyle(document.documentElement);
 
-        // Get the theme variables
-        const backgroundColorLight = computedStyles.getPropertyValue('--background-color-light').trim();
-        const backgroundColorDark = computedStyles.getPropertyValue('--background-color-dark').trim();
-        
-        const backgroundColor = document.body.classList.contains('dark') ? backgroundColorDark : backgroundColorLight;
+                // Get the theme variables
+                const backgroundColorLight = computedStyles.getPropertyValue('--background-color-light').trim();
+                const backgroundColorDark = computedStyles.getPropertyValue('--background-color-dark').trim();
+                const colorLight = computedStyles.getPropertyValue('--color-light').trim();
+                const colorDark = computedStyles.getPropertyValue('--color-dark').trim();
+                
+                const backgroundColor = document.body.classList.contains('dark') ? backgroundColorDark : backgroundColorLight;
+                const color = document.body.classList.contains('dark') ? colorDark : colorLight;
 
-        const backgroundColorHex = parseInt(backgroundColor.replace('#', ''), 16);
+                const backgroundColorHex = parseInt(backgroundColor.replace('#', ''), 16);
+                const colorHex = parseInt(color.replace('#', ''), 16);
 
-        VANTA.TOPOLOGY({
-            el: "#vanta-bg",
-            mouseControls: false,
-            touchControls: false,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            scaleMobile: 1.00,
-            color: 0x9498AF, 
-            backgroundColor: backgroundColorHex// 0x1d1e20 : 0xf0efeb
+                VANTA.TOPOLOGY({
+                    el: "#vanta-bg",
+                    mouseControls: false,
+                    touchControls: false,
+                    gyroControls: false,
+                    minHeight: 200.00,
+                    minWidth: 200.00,
+                    scale: 1.00,
+                    scaleMobile: 1.00,
+                    backgroundColor: backgroundColorHex,
+                    color: colorHex
         });
     });
 

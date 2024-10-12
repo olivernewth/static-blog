@@ -25,6 +25,8 @@
     --border: rgb(238, 238, 238);
     --background-color-light: #f0efeb;
     --background-color-dark: #1d1e20;
+    --color-light: #436391;
+    --color-dark: #6EACDA;
 }
 
 .dark {
