@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "runOnOpen": [
+      {
+        "label": "Start Both Hugo Servers",
+        "runOn": "folderOpen"
+      }
+    ]
+  }
+}

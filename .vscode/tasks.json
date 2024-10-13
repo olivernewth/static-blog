@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Start Hugo Server (newth.ai)",
+      "label": "Start Server (newth.ai)",
       "type": "shell",
       "command": "hugo",
       "args": ["server", "--environment", "newth_ai", "--port", "1313"],
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "label": "Start Hugo Server (newth.art)",
+      "label": "Start Server (newth.art)",
       "type": "shell",
       "command": "hugo",
       "args": ["server", "--environment", "newth_art", "--port", "1314"],
@@ -56,13 +56,16 @@
       ]
     },
     {
-      "label": "Start Both Hugo Servers",
-      "dependsOn": ["Start Hugo Server (newth.ai)", "Start Hugo Server (newth.art)"],
+      "label": "Start Both Servers",
+      "dependsOn": ["Start Server (newth.ai)", "Start Server (newth.art)"],
       "dependsOrder": "parallel",
-      "problemMatcher": []
+      "problemMatcher": [],
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
     },
     {
-      "label": "Build Hugo Site (newth.ai)",
+      "label": "Build Hugo (newth.ai)",
       "type": "shell",
       "command": "hugo",
       "args": ["--config", "hugo_newth_ai.yaml", "--minify"],
@@ -73,7 +76,7 @@
       }
     },
     {
-      "label": "Build Hugo Site (newth.art)",
+      "label": "Build Hugo (newth.art)",
       "type": "shell",
       "command": "hugo",
       "args": ["--config", "hugo_newth_art.yaml", "--minify"],
@@ -84,8 +87,8 @@
       }
     },
     {
-      "label": "Build Both Hugo Sites",
-      "dependsOn": ["Build Hugo Site (newth.ai)", "Build Hugo Site (newth.art)"],
+      "label": "Build Both Hugo",
+      "dependsOn": ["Build Hugo (newth.ai)", "Build Hugo (newth.art)"],
       "group": {
         "kind": "build",
         "isDefault": true
