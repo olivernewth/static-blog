@@ -11,6 +11,7 @@
     --background-color-light: rgb(240, 239, 235);
     --background-color-dark: rgb(29, 30, 32);
     --initial-background: var(--background-color-light);
+    --initial-color: var(--primary);
 }
 
 .dark {

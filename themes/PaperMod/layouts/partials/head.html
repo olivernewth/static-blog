@@ -98,8 +98,10 @@
 
     if (theme === 'dark') {
       document.documentElement.style.setProperty('--initial-background', 'var(--background-color-dark)');
+      document.documentElement.style.setProperty('--initial-color', 'var(--primary)');
     } else {
       document.documentElement.style.setProperty('--initial-background', 'var(--background-color-light)');
+      document.documentElement.style.setProperty('--initial-color', 'var(--primary)');
     }
   })();
 </script>

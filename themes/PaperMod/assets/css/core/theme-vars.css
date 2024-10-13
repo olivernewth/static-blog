@@ -28,6 +28,7 @@
     --color-light: #436391;
     --color-dark: #6EACDA;
     --initial-background: var(--background-color-light);
+    --initial-color: var(--primary);
 }
 
 .dark {
