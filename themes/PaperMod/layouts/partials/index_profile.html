@@ -2,8 +2,8 @@
 <main class="profile">
     {{- with site.Params.profileMode }}
     <div class="profile_inner">
-        <h1 class="fade-in">{{ .title | default site.Title | markdownify }}</h1>
-        <span class="fade-in">{{ .subtitle | markdownify }}</span>
+        <h1>{{ .title | default site.Title | markdownify }}</h1>
+        <span>{{ .subtitle | markdownify }}</span>
     </div>
     {{- end}}
 </main>
