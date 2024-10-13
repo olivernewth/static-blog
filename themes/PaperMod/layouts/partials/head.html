@@ -78,11 +78,28 @@
 {{- end }}
 <script>
   (function() {
-    const theme = localStorage.getItem('pref-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    const getThemePreference = () => {
+      if (typeof window.localStorage !== 'undefined') {
+        const storedPrefs = window.localStorage.getItem('pref-theme');
+        if (typeof storedPrefs === 'string') {
+          return storedPrefs;
+        }
+        const userMedia = window.matchMedia('(prefers-color-scheme: dark)');
+        if (userMedia.matches) {
+          return 'dark';
+        }
+      }
+      return 'light';
+    };
+
+    const theme = getThemePreference();
+    const body = document.body;
+    body.classList.add(theme);
+
     if (theme === 'dark') {
-      document.body.classList.add('dark');
+      document.documentElement.style.setProperty('--initial-background', 'var(--background-color-dark)');
     } else {
-      document.body.classList.remove('dark');
+      document.documentElement.style.setProperty('--initial-background', 'var(--background-color-light)');
     }
   })();
 </script>

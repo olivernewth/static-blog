@@ -1,3 +1,8 @@
+body {
+    background-color: var(--initial-background);
+    transition: background-color 0.3s ease;
+}
+
 .nav {
     display: flex;
     flex-wrap: wrap;

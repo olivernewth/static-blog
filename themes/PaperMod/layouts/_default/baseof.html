@@ -19,7 +19,7 @@
 {{- if .IsHome }}
 {{- print " home-profile" }}
 {{- end -}}
-{{ block "body-class" . }}{{ end }}" id="top">
+{{ block "body-class" . }}{{ end }} preload" id="top">
     {{- partialCached "header.html" . .Page -}}
     <main class="main">
         {{- block "main" . }}{{ end }}
