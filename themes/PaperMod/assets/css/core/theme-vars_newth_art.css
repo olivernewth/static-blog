@@ -13,8 +13,6 @@
     --background-color-dark: #000;
     --color-light: #7b7b7b;
     --color-dark: #7b7b7b;
-    --initial-background: var(--background-color-light);
-    --initial-color: var(--primary);
 }
 
 .dark {
@@ -28,6 +26,7 @@
     --code-bg: rgb(55, 56, 62);
     --border: rgb(51, 51, 51);
     --initial-background: var(--background-color-dark);
+    --initial-color: var(--primary);
 }
 
 .dark.list {

@@ -94,15 +94,7 @@
 
     const theme = getThemePreference();
     const body = document.body;
-    body.classList.add(theme);
 
-    if (theme === 'dark') {
-      document.documentElement.style.setProperty('--initial-background', 'var(--background-color-dark)');
-      document.documentElement.style.setProperty('--initial-color', 'var(--primary)');
-    } else {
-      document.documentElement.style.setProperty('--initial-background', 'var(--background-color-light)');
-      document.documentElement.style.setProperty('--initial-color', 'var(--primary)');
-    }
   })();
 </script>
 <noscript>
