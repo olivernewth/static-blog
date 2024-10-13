@@ -6,7 +6,7 @@ weight: 10
 tags:
   - Productivity
 cover:
-  image: 'https://cdn.newth.ai/85894.jpeg'
+  image: '85894.jpeg'
 ---
 
 Discover how I use a suite of powerful tools to enhance productivity, streamline workflows, and
@@ -19,7 +19,7 @@ into a sort of command center, vastly improving my workflow efficiency. It's lik
 steroids" for macOS, with the ability to swiftly launch applications, preview documents, search for
 files, create reminders, and quite a bit more—all from a swiftly accessible search bar.
 
-![image](https://cdn.newth.ai/i/2024/04/CleanShot-2024-04-29-at-22.34.19@2x.png)
+![image](CleanShot-2024-04-29-at-22.34.19@2x.png)
 
 One of the key advantages of Raycast is its expandability. Thanks to its rich set of integrations
 and an open-source extension model, users can act on data from the tools they use most frequently.
@@ -37,7 +37,7 @@ It's an essential tool for anyone interested in enhancing their productivity thr
 management. Get a free month using
 [this referral code](https://rize.io/?code=06555D&utm_source=refer&name=Oliver).
 
-![image](https://cdn.newth.ai/i/2024/04/14144.png)
+![image](14144.png)
 
 ### 3. Capacities.io: Building a Personal Knowledge Base
 
@@ -47,7 +47,7 @@ knowledge system that allows me to easily store, organize, and retrieve accumula
 Its integration capabilities make it an invaluable resource for lifelong learners and data
 enthusiasts.
 
-![image](https://cdn.newth.ai/i/2024/04/3950.png)
+![image](3950.png)
 
 ### 4. Rise Calendar: Simplifying Scheduling
 
@@ -56,7 +56,7 @@ simplifies scheduling, making it easy to oversee my appointments and deadlines e
 straightforward design is a welcome change for anyone tired of overly complicated calendar apps.
 {{< citation 4 "Rise Calendar incorporates 'time blocking' features, a productivity technique endorsed by many successful entrepreneurs and CEOs for better time management." >}}
 
-![image](https://cdn.newth.ai/i/2024/04/20421.png)
+![image](20421.png)
 
 ### 5. Hyper: A Prettier Command Line
 
@@ -66,7 +66,7 @@ its customizable interface and support for numerous plugins and themes,
 transforming a typically mundane space into an engaging and dynamic environment. One of the less
 life changing apps in this list, but still fun.
 
-![image](https://cdn.newth.ai/i/2024/04/387.png)
+![image](387.png)
 
 ### 6. Things 3: Beautifully Simple Task Management
 
@@ -76,7 +76,7 @@ and milestone creation.
 {{< citation 6 "Things 3 implements the 'Getting Things Done' (GTD) methodology, a popular productivity system developed by David Allen, helping users manage their tasks more effectively." >}}
 Its intuitive setup is perfect for anyone looking to streamline their task management process.
 
-![image](https://cdn.newth.ai/i/2024/04/19600.png)
+![image](19600.png)
 
 ### 7. Hidden Bar: Decluttering the Mac Menu Bar
 
@@ -85,7 +85,7 @@ up my Mac's menu bar by hiding icons that are not in use, reducing visual clutte
 on my tasks. This small utility offers a significant improvement in my workspace organization.
 {{< citation 7 "Studies in cognitive psychology suggest that visual clutter can negatively impact focus and productivity, making tools like Hidden Bar valuable for maintaining a distraction-free workspace." >}}
 
-![image](https://cdn.newth.ai/i/2024/04/CleanShot-2024-04-29-at-13.57.41@2x.png)
+![image](CleanShot-2024-04-29-at-13.57.41@2x.png)
 
 ### 8. CleanShot X: Beautiful Screenshots
 
@@ -97,7 +97,7 @@ professional-looking visuals quickly.
 Whether you're capturing bugs for feedback, building a knowledge base, or simply saving important
 information, CleanShot X streamlines the process, making it seamless and efficient.
 
-![image](https://cdn.newth.ai/i/2024/04/11431.png)
+![image](11431.png)
 
 ### 9. Endel: Focus with Soundscapes
 
@@ -106,7 +106,7 @@ focus, relaxation, or sleep, tailored to my personal physiological state.
 {{< citation 9 "Endel's soundscapes are based on circadian rhythms, pentatonic scale, and sound masking, principles rooted in neuroscience and the psychology of sound perception." >}}
 This app is fantastic for anyone needing to concentrate deeper or unwind effectively.
 
-![image](https://cdn.newth.ai/i/2024/04/22994.png)
+![image](22994.png)
 
 ### 10. Arc Browser: A Smarter Way to Browse
 
@@ -116,7 +116,7 @@ organizational features,
 allowing me to manage multiple websites and tasks seamlessly. Its user-centric design makes
 navigating the internet more efficient and enjoyable.
 
-![image](https://cdn.newth.ai/i/2024/04/49802.png)
+![image](49802.png)
 
 Each of these tools offers unique benefits that enhance efficiency, manage information, or assist
 with personal development. Integrating them into your daily routine can help reshape your
