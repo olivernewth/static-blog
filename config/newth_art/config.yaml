@@ -28,13 +28,13 @@ menu:
       url: /about/
       weight: 3
   footer:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 1
     - identifier: contact
       name: Contact
       url: /contact/
-      weight: 1
-    - identifier: instagram
-      name: Instagram
-      url: https://www.instagram.com/lightsbyoliver
       weight: 2
     - identifier: ai
       name: AI and Product
