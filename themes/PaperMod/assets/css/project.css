@@ -1,0 +1,54 @@
+.project-single {
+    padding-bottom:0;
+    h1 { 
+        margin:0.5em 0;
+    }
+    .entry-cover {
+        height: 70vh;
+        margin: 3em 0;
+        img {
+            object-fit: cover;
+        }
+    }
+    section { 
+        margin-top:0;
+        padding-top:0;
+    }
+    img {
+        margin-top:0em;
+        }
+
+    .post-content {
+        p, ul, table {
+            margin-left: auto;
+            margin-right: auto;            
+        }
+    }
+    ul.project-tags {
+        list-style-type: none; /* Remove bullets */
+        padding: 0; /* Remove default padding */
+        margin: 0; /* Remove default margin */
+    }
+
+    ul.project-tags li {
+        display: inline; /* Display list items inline */
+        margin-right: 10px; /* Add some space between items */
+    }   
+  .wide-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 60%; /* Maintains your original 60% aspect ratio */
+    overflow: hidden;
+    margin: 3em 0;
+    border-radius: var(--radius);
+  }
+  .wide-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+}
