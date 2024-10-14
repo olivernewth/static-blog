@@ -1,5 +1,5 @@
 ---
-title: 'Top Lighting Software Recommendations for Professionals'
+title: 'Top Lighting Software Recommendations'
 date: 2024-10-13
 draft: false
 weight: 10
@@ -11,6 +11,9 @@ tags:
 summary:
   'Discover the best lighting software tools that can revolutionize your projects, including
   LightKey and more.'
+cover:
+  image: 'daniel-lincoln-3-Z20Q9ysdI-unsplash.jpg'
+  alt: 'Lighting software interface illustration'
 ---
 
 In this post, we'll explore the top lighting software recommendations for professionals in the
@@ -58,6 +61,8 @@ Key features include:
 - Timeline-based programming for complex shows
 - MIDI and OSC support for external control
 
+![LightKey interface](lightkey.jpg)
+
 LightKey is an excellent choice for small to medium-sized productions, offering professional-grade
 features at an accessible price point.
 
@@ -70,6 +75,8 @@ provides intuitive control over your Hue lights, allowing you to:
 - Set up routines and schedules
 - Sync lights with music and entertainment
 - Integrate with voice assistants and other smart home platforms
+
+![Philips Hue App](philipshue.jpg)
 
 While primarily designed for home use, the Hue system can also be effectively employed in small
 commercial spaces like cafes or boutiques to create inviting atmospheres.
@@ -85,6 +92,8 @@ madMapper offers:
 - Real-time effects and compositing
 - Support for multiple input and output protocols
 - Intuitive interface for complex projections and LED setups
+
+![madMapper interface](madmapper.jpg)
 
 madMapper is the tool of choice for many professionals creating immersive light art installations,
 architectural lighting, and large-scale event productions. Its versatility allows it to handle
