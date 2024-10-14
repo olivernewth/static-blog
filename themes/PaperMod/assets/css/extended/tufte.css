@@ -149,12 +149,6 @@ section > ol,
 section > ul {
     -webkit-padding-start: 5%;
 }
-.main {
-    dt:not(:first-child),
-        li:not(:first-child) {
-            /* margin-top: 0.25rem; */
-        }
-}
 
 
 figure {
@@ -421,7 +415,6 @@ label.margin-toggle:not(.sidenote-number) {
         clear: both;
         width: 95%;
         margin: 1rem 2.5%;
-        vertical-align: baseline;
         position: relative;
     }
 

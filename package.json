@@ -1,10 +1,13 @@
 {
   "devDependencies": {
+    "@eslint/js": "^9.12.0",
     "eslint": "^9.12.0",
+    "globals": "^15.11.0",
     "prettier": "^3.3.3"
   },
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier --check ."
-  }
+  },
+  "type": "module"
 }
