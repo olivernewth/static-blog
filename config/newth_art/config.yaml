@@ -13,6 +13,8 @@ params:
     subtitle:
       "I'm Oliver, an immersive light artist creating large-scale illuminated installations for
       Burning Man, urban landscapes and public spaces."
+  mainSections:
+    - blog
 menu:
   main:
     - identifier: Projects
