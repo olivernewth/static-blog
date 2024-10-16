@@ -3,7 +3,7 @@ title: 'About Oliver'
 ---
 
 I'm Oliver, an AI Product Leader based in San Francisco. With over a decade of experience at
-companies like Meta, Microsoft and most recently Covariant, I've been at the forefront of developing
+companies like [Meta](https://about.meta.com), [Microsoft](https://www.microsoft.com) and most recently [Covariant](https://covariant.ai), I've been at the forefront of developing
 innovative AI solutions that are reshaping how we interact with technology in our daily lives and in
 the physical world.
 
@@ -11,15 +11,17 @@ the physical world.
 
 My career has been driven by a passion for leveraging AI to create impactful products. From leading
 the development of AI-powered robotics at Covariant to enhancing user experiences at Meta and
-expanding language AI capabilities at Microsoft, I've consistently pushed the boundaries of what's
+expanding language AI capabilities at Microsoft, I've been drawn to opportunities for pushing the boundaries of what's
 possible with machine learning and artificial intelligence.
 
 Some highlights of my journey include:
 
-- Spearheading AI robotics solutions at Covariant, working on technology that allows robots to learn
+- Spearheading AI robotics solutions at [Covariant](https://covariant.ai), working on technology that allows robots to learn
   skills much like chatbots do
-- Increasing user engagement on Meta platforms by 75% through enhanced AI-driven features
-- Expanding Azure Cognitive Services to support 25 languages for enterprise clients
+- Increasing user engagement on [Meta](https://about.meta.com) platforms by 75% through enhanced AI-driven features
+- Expanding [Azure Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/) to support 25 languages for enterprise clients
+
+{{< youtube oZVFzDjBBq8 >}}
 
 ## Beyond the Office
 

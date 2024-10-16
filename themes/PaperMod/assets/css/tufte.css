@@ -86,7 +86,7 @@ section {
 ul,
  h2,h3,
 footer,
- table {
+ table, div {
     width: 55%;
 }
 

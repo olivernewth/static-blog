@@ -132,15 +132,18 @@ blockquote footer {
     text-align: right;
 }
 section {
- p,
-ol,
-ul,
- h2,h3,h4,h5,h6,
-footer,
- table {
-    width: 55%;
-}
-
+    p,
+    ol,
+    ul,
+    h2,h3,h4,h5,h6,
+    footer,
+    table, 
+    div {
+        width: 55%;
+    }
+    iframe {
+        max-height:50vh;
+    }
 }
 
 /* 50 + 5 == 55, to be the same width as paragraph */
