@@ -156,7 +156,7 @@
     word-break: break-all;
 }
 
-.post-content img {
+.post-content > img {
     border-radius: 4px;
     margin: 1rem 0;
 }

@@ -131,16 +131,19 @@ blockquote footer {
     font-size: var(--font-size-small);
     text-align: right;
 }
-section {
-    p,
-    ol,
-    ul,
-    h2,h3,h4,h5,h6,
-    footer,
-    table, 
-    div {
-        width: 55%;
-    }
+section > p,
+section > ol,
+section > ul,
+section > h2,
+section > h3,
+section > h4,
+section > h5,
+section > h6,
+section > footer,
+section > table, 
+section > div {
+    width: 55%;
+}
     iframe {
         max-height:50vh;
     }

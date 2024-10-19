@@ -82,16 +82,16 @@ p {
 /* Chapter Epigraphs */
 /* end chapter epigraphs styles */
 section {
- p,
-ul,
- h2,h3,
-footer,
- table, div {
-    width: 55%;
+    > p,
+    > ul,
+    > h2,
+    > h3,
+    > footer,
+    > table,
+    > div {
+        width: 55%;
+    }
 }
-
-}
-
 /* 50 + 5 == 55, to be the same width as paragraph */
 
 section > ul {
