@@ -1,5 +1,11 @@
 <footer class="footer">
-    <span>&copy; {{ now.Year }} {{ site.Title }}</span>
+<div class="footer-content">
+    <span>Oliver Grosvenor-Newth</span>
+    <span>&middot;</span>
+    <span>He/Him</span>
+    <span>&middot;</span>
+    <span>San Francisco CA</span>
+</div>
     <ul id="footer-menu">
         {{- range site.Menus.footer }}
         {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
