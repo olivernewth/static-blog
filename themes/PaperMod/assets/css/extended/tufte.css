@@ -144,7 +144,12 @@ section {
     iframe {
         max-height:50vh;
     }
+    /* Override width for elements inside callout */
+    .callout p, .callout ol, .callout ul, .callout h2, .callout h3, .callout h4, .callout h5, .callout h6, .callout footer, .callout table, .callout div {
+        width: 100%;
+    }
 }
+
 
 /* 50 + 5 == 55, to be the same width as paragraph */
 section > dl,

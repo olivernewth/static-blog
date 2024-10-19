@@ -194,3 +194,47 @@ figure.entry-cover img {
 body.preload * {
     transition: none !important;
 }
+
+.callout {
+  padding: 15px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+
+.callout-info {
+  border-left-color: #5bc0de;
+  background-color: #d9edf7;
+}
+
+.callout-success {
+  border-left-color: #5cb85c;
+  background-color: #dff0d8;
+}
+
+.callout-warning {
+  border-left-color: #f0ad4e;
+  background-color: #fcf8e3;
+}
+
+.callout-danger {
+  border-left-color: #d9534f;
+  background-color: #f2dede;
+}
+
+.callout h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.columns > div {
+  flex: 1;
+  min-width: 300px;
+}
