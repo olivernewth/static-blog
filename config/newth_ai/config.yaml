@@ -26,6 +26,10 @@ menu:
       name: Contact
       url: /contact/
       weight: 3
+    - identifier: garden
+      name: Garden
+      url: /garden/
+      weight: 2 # Adjust this weight as needed
   footer:
     - identifier: mentoring
       name: Mentoring
@@ -39,3 +43,15 @@ menu:
       name: Art Installations
       url: https://www.newth.art/
       weight: 3
+taxonomies:
+  tag: tags
+  garden: garden
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      wikilinks: true
+mainSections:
+  - blog
+  - garden

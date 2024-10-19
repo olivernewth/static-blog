@@ -2,11 +2,11 @@
 {{ $apiKey := "3311a4ed9abd217bb57ff9151987bdf3" }}
 {{ $apiUrl := printf "http://api.linkpreview.net/?key=%s&q=%s" $apiKey $url }}
 
-{{ $res := getJSON $apiUrl }}
+{{ $response := resources.GetRemote $apiUrl }}
+{{ $res := $response.Content | transform.Unmarshal }}
 
 <div class="link-card" style="display: flex; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden;  margin: 20px 0;">
   <div class="link-content" style="flex: 1; padding: 16px;">
-    <h3 style="margin: 0 0 8px; font-size: 18px;">{{ $res.title }}</h3>
     <p style="margin: 0 0 8px; font-size: 14px; color: #555;">{{ $res.description }}</p>
     <div style="display: flex; align-items: center; font-size: 12px; color: #777;">
       <span>{{ $res.url | replaceRE "^https?://([^/]+).*" "$1" }}</span>

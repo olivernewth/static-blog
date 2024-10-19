@@ -1,0 +1,10 @@
+{{ $link := .Destination }}
+{{ $isWikiLink := strings.HasPrefix $link "[[" }}
+{{ if $isWikiLink }}
+{{ $link = strings.TrimPrefix "[[" $link }}
+{{ $link = strings.TrimSuffix "]]" $link }}
+{{ $link = printf "/garden/%s/" $link }}
+{{ end }}
+{{ $isRemote := strings.HasPrefix $link "http" }}
+<a href="{{ $link | safeURL }}" {{ with .Title}} title="{{ . }}" {{ end }}{{ if $isRemote }} target="_blank" {{ end
+    }}>{{ .Text | safeHTML }}</a>

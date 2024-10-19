@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article class="garden-entry">
+  <h1>{{ .Title }}</h1>
+  <div class="metadata">
+    <time>Last updated: {{ .Lastmod.Format "January 2, 2006" }}</time>
+    <span class="status">Status: {{ .Params.status }}</span>
+  </div>
+  {{ .Content }}
+  {{ partial "backlinks.html" . }}
+</article>
+{{ partial "graph-view.html" . }}
+{{ end }}

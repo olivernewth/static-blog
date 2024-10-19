@@ -1,0 +1,11 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ range .Pages.ByLastmod.Reverse }}
+  <article>
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <time>Last updated: {{ .Lastmod.Format "January 2, 2006" }}</time>
+    <span class="status">Status: {{ .Params.status }}</span>
+    {{ .Summary }}
+  </article>
+{{ end }}
+{{ end }}

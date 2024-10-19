@@ -1,0 +1,15 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div class="garden-list">
+  {{ range .Pages.ByLastmod.Reverse }}
+    <article class="garden-entry">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <div class="metadata">
+        <time>Last updated: {{ .Lastmod.Format "January 2, 2006" }}</time>
+        <span class="status">Status: {{ .Params.status }}</span>
+      </div>
+      <p>{{ .Summary }}</p>
+    </article>
+  {{ end }}
+</div>
+{{ end }}

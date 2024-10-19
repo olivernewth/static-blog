@@ -1,0 +1,16 @@
+{{ $currentPage := . }}
+{{ $links := slice }}
+{{ range .Site.RegularPages }}
+  {{ if and (findRE (printf "(%s)" $currentPage.RelPermalink) .Content) (ne . $currentPage) }}
+    {{ $links = $links | append . }}
+  {{ end }}
+{{ end }}
+
+{{ if $links }}
+<h2>Backlinks</h2>
+<ul>
+  {{ range $links }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}
