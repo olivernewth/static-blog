@@ -27,8 +27,7 @@ h1 {
     width:80%;
     margin:0 auto;
     text-wrap: balance;
-}
-
+}h
 
 figure.entry-cover {
     width: 100%;
@@ -76,3 +75,5 @@ figure.entry-cover img {
 body.preload * {
     transition: none !important;
 }
+
+const add = (a, b) => a + b; 
