@@ -50,3 +50,14 @@
 .footer a:hover {
     color: var(--primary);
 }
+
+@media (max-width: 600px) {
+  .footer-content {
+    display: none;
+  }
+
+  #footer-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+}
