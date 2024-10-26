@@ -15,8 +15,6 @@ cover:
 A new chapter of personal growth in my life through writing, inspired by Paul Graham's essays and
 Maggie Appleton's digital garden.
 
-{{< link-card url="https://OPENAI.COM" >}}
-
 This marks the beginning of a new chapter for me. Until recently, I have primarily written for
 myself, jotting down quick notes to aid memory or process thoughts. However, these notes often get
 lost over time, and I rarely revisit them. Now, I aim to create content that can be valuable to
