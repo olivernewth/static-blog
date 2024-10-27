@@ -1,0 +1,48 @@
+baseURL: https://newth.tech
+contentDir: 'content/newth.tech'
+publishDir: 'public/newth.tech'
+params:
+  themeVarsCSS: 'css/core/theme-vars_newth_tech.css'
+  defaultTheme: dark
+  description: "I'm Oliver, a smart home technology expert specializing in custom installations of lighting, audio, and home automation systems."
+  profileMode:
+    enabled: true
+    title: 'Smart Home Technology Done Right.'
+    subtitle: "I'm Oliver, a smart home technology expert specializing in custom installations of lighting, audio, and home automation systems."
+  mainSections:
+    - blog
+menu:
+  main:
+    - identifier: services
+      name: Services
+      url: /services/
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 2
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 3
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 4
+  footer:
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 1
+    - identifier: linkedin
+      name: LinkedIn
+      url: https://www.linkedin.com/in/newth/
+      weight: 2
+    - identifier: art
+      name: Light Art
+      url: https://www.newth.art/
+      weight: 3
+    - identifier: ai
+      name: AI and Product
+      url: https://www.newth.ai/
+      weight: 4

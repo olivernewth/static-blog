@@ -1,0 +1,16 @@
+<main class="profile">
+    {{- with site.Params.profileMode }}
+    <div class="profile_inner">
+        <h1>{{ .title | default site.Title | markdownify }}</h1>
+        <span>{{ .subtitle | markdownify }}</span>
+        <div class="buttons">
+            <a href="/services" class="button">
+                <span class="button-inner">View Services</span>
+            </a>
+            <a href="/contact" class="button">
+                <span class="button-inner">Get Started</span>
+            </a>
+        </div>
+    </div>
+    {{- end}}
+</main>

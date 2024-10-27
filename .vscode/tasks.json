@@ -2,97 +2,70 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Start Server (newth.ai)",
+      "label": "Start All Servers",
       "type": "shell",
-      "command": "hugo",
-      "args": ["server", "--environment", "newth_ai", "--port", "1313"],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "isBackground": true,
-      "problemMatcher": [
-        {
-          "pattern": [
-            {
-              "regexp": ".",
-              "file": 1,
-              "location": 2,
-              "message": 3
-            }
-          ],
-          "background": {
-            "activeOnStart": true,
-            "beginsPattern": "Start building sites",
-            "endsPattern": "Web Server is available at"
-          }
-        }
-      ]
-    },
-    {
-      "label": "Start Server (newth.art)",
-      "type": "shell",
-      "command": "hugo",
-      "args": ["server", "--environment", "newth_art", "--port", "1314"],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "isBackground": true,
-      "problemMatcher": [
-        {
-          "pattern": [
-            {
-              "regexp": ".",
-              "file": 1,
-              "location": 2,
-              "message": 3
-            }
-          ],
-          "background": {
-            "activeOnStart": true,
-            "beginsPattern": "Start building sites",
-            "endsPattern": "Web Server is available at"
-          }
-        }
-      ]
-    },
-    {
-      "label": "Start Both Servers",
-      "dependsOn": ["Start Server (newth.ai)", "Start Server (newth.art)"],
-      "dependsOrder": "parallel",
-      "problemMatcher": [],
-      "runOptions": {
-        "runOn": "folderOpen"
-      }
-    },
-    {
-      "label": "Build Hugo (newth.ai)",
-      "type": "shell",
-      "command": "hugo",
-      "args": ["--config", "hugo_newth_ai.yaml", "--minify"],
-      "group": "build",
-      "problemMatcher": [],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      }
-    },
-    {
-      "label": "Build Hugo (newth.art)",
-      "type": "shell",
-      "command": "hugo",
-      "args": ["--config", "hugo_newth_art.yaml", "--minify"],
-      "group": "build",
-      "problemMatcher": [],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      }
-    },
-    {
-      "label": "Build Both Hugo",
-      "dependsOn": ["Build Hugo (newth.ai)", "Build Hugo (newth.art)"],
+      "command": "./scripts/dev-all.sh",
       "group": {
         "kind": "build",
         "isDefault": true
       },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build All Sites",
+      "type": "shell",
+      "command": "./scripts/build.sh",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build Hugo (newth.ai)",
+      "type": "shell",
+      "command": "hugo --config config/newth_ai/config.yaml",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Build Hugo (newth.art)",
+      "type": "shell",
+      "command": "hugo --config config/newth_art/config.yaml",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Build Hugo (newth.tech)",
+      "type": "shell",
+      "command": "hugo --config config/newth_tech/config.yaml",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Server (newth.ai)",
+      "type": "shell",
+      "command": "hugo server -D --config config/newth_ai/config.yaml",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Server (newth.art)",
+      "type": "shell",
+      "command": "hugo server -D --config config/newth_art/config.yaml",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Server (newth.tech)",
+      "type": "shell",
+      "command": "hugo server -D --config config/newth_tech/config.yaml",
+      "group": "build",
       "problemMatcher": []
     }
   ]

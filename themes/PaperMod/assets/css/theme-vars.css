@@ -10,8 +10,9 @@
     --color-gray-600: rgb(51, 51, 51);
     --color-gray-700: rgb(46, 46, 51);
     --color-gray-800: rgb(29, 30, 32);
-    --color-blue-100: rgb(46, 56, 98);
+    --color-blue-100: rgb(96, 165, 250);
     --color-blue-200: rgb(30, 36, 46);
+    --color-blue-800: rgb(15, 23, 42);
 
     /* Layout */
     --gap: 24px;
@@ -27,42 +28,36 @@
     --font-size-heading: 3rem;
     --font-size-h2: 2rem;
     --font-size-h3: 1.6rem;
-    --font-size-h4: var(--font-size-h3);
-    --font-size-h5: var(--font-size-h3);
-    --font-size-h6: var(--font-size-h3);
+    --font-size-h4: 1.4rem;
+    --font-size-h5: 1.2rem;
+    --font-size-h6: 1.1rem;
 
     /* UI Elements */
-    --radius: 4px;
+    --radius: 8px;
 
     /* Light Theme Colors */
-    --theme: var(--color-white);
+    --theme: var(--color-gray-100);
     --entry: var(--color-white);
-    --primary: var(--color-blue-200);
-    --secondary: var(--primary);
-    --tertiary: var(--color-gray-200);
-    --content: var(--primary);
-    --code-block-bg: var(--color-blue-100);
+    --primary: var(--color-blue-100);
+    --secondary: rgba(96, 165, 250, 0.85);
+    --tertiary: rgba(96, 165, 250, 0.5);
+    --content: var(--color-gray-800);
+    --code-block-bg: var(--color-gray-100);
     --code-bg: var(--color-white);
     --border: var(--color-gray-200);
-    --background-color-light: var(--color-white);
-    --background-color-dark: var(--color-black);
-    --color-light: var(--color-gray-400);
-    --color-dark: var(--color-gray-400);
 }
 
 .dark {
     /* Dark Theme Colors */
-    --theme: var(--color-gray-800);
+    --theme: var(--color-blue-800);
     --entry: var(--color-gray-700);
-    --primary: var(--color-gray-100);
-    --secondary: var(--color-gray-300);
-    --tertiary: var(--color-gray-500);
-    --content: var(--color-gray-200);
+    --primary: var(--color-blue-100);
+    --secondary: rgba(96, 165, 250, 0.85);
+    --tertiary: rgba(96, 165, 250, 0.5);
+    --content: var(--color-gray-100);
     --code-block-bg: var(--color-gray-700);
     --code-bg: var(--color-gray-600);
     --border: var(--color-gray-600);
-    --initial-background: var(--background-color-dark);
-    --initial-color: var(--primary);
 }
 
 .dark.list {
@@ -72,11 +67,25 @@
 @media (max-width: 760px) {
     :root {
         --font-size-heading: 2.5rem;
+        --nav-width: 100%;
+        --main-width: calc(100% - var(--gap) * 2);
     }
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --initial-background: var(--background-color-dark);
+        color-scheme: dark;
     }
 }
+
+/* Smooth transitions for theme switching */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Improved focus states for accessibility */
+:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+}
+

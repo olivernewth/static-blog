@@ -1,0 +1,30 @@
+{{ if .IsHome }}
+<script src="{{ "js/three.min.js" | absURL }}"></script>
+<script src="{{ "js/p5.min.js" | absURL }}"></script>
+<script src="{{ "js/vanta.topology.min.js" | absURL }}"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        // Wait a brief moment to ensure element is ready
+        setTimeout(() => {
+            const vantaElement = document.getElementById('vanta-bg');
+            if (vantaElement) {
+                VANTA.TOPOLOGY({
+                    el: vantaElement,
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: false,
+                    minHeight: 200.00,
+                    minWidth: 200.00,
+                    scale: 1.00,
+                    scaleMobile: 1.00,
+                    color: 0x60A5FA,
+                    backgroundColor: 0x111827,
+                    points: 12.00,
+                    maxDistance: 25.00,
+                    spacing: 18.00
+                });
+            }
+        }, 100);
+    });
+</script>
+{{ end }}

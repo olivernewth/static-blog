@@ -6,5 +6,34 @@
         "runOn": "folderOpen"
       }
     ]
-  }
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  "files.associations": {
+    "*.html": "gohtml"
+  },
+  "yaml.schemas": {
+    "https://json.schemastore.org/hugo.json": [
+      "config/*.yaml",
+      "config/**/*.yaml"
+    ]
+  },
+  "cSpell.words": [
+    "newth",
+    "Crestron",
+    "Lutron",
+    "Sonos",
+    "Philips",
+    "Zigbee",
+    "VLAN",
+    "VLANs"
+  ]
 }

@@ -1,0 +1,39 @@
+.profile .buttons {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.profile .button {
+    background: var(--primary);
+    color: var(--theme);
+    padding: 0.8em 1.6em;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.profile .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#vanta-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.profile_inner h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.profile_inner span {
+    font-size: 1.2em;
+    opacity: 0.9;
+}

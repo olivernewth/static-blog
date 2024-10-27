@@ -7,7 +7,13 @@
   },
   "scripts": {
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "dev": "./scripts/dev.sh",
+    "dev:all": "./scripts/dev-all.sh",
+    "build": "./scripts/build.sh",
+    "build:tech": "./scripts/build-tech.sh"
   },
   "type": "module"
 }
