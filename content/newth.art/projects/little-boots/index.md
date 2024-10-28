@@ -4,7 +4,7 @@ summary: 'The vibrant neon lights and dynamic visuals set the stage for an unfor
 tags:
   - Electroluxx
 cover:
-  image: 'little_boots_1.webp'
+  image: 'ElectroluxxPicsforOllie12.jpeg'
 layout: 'project'
 year: 2020
 ---
@@ -14,8 +14,6 @@ neon lights and dynamic visuals set the stage for an unforgettable night. The en
 palpable as Little Boots performed, with the lighting perfectly complementing her electrifying
 performance.
 
-{{< wideimage "little_boots_2.jpeg" "Little Boots" >}}
+{{< wideimage "ElectroluxxPicsforOllie7.jpeg" "Little Boots" >}}
 
-{{< wideimage "little_boots_3.jpeg" "Little Boots" >}}
-
-{{< wideimage "little_boots_4.jpeg" "Little Boots" >}}
+{{< wideimage "ElectroluxxPicsforOllie4.jpeg" "Little Boots" >}}

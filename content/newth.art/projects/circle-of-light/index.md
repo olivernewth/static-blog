@@ -5,7 +5,7 @@ summary:
 tags:
   - National AIDS Memorial
 cover:
-  image: 'circleoflight.jpeg'
+  image: 'circleoflight_1.webp'
 layout: 'project'
 year: 2022
 ---
@@ -21,6 +21,8 @@ the circle, it highlighted our unity and resilience, while the gaps reminded us 
 with us. This installation embodied our collective commitment to remembrance and the ongoing fight
 against HIV/AIDS.
 
-{{< wideimage "circleoflight_2.jpeg" "Close up of circle" >}}
+{{< wideimage "20211130-DSC_0331.jpeg" "Close up of circle" >}}
 
-{{< wideimage "circleoflight_3.jpeg" "View of colorful circle" >}}
+{{< wideimage "51733737293_10ed20fbea_o.jpeg" "View of colorful circle" >}}
+
+{{< wideimage "20211130-DSC_0301.jpeg" "View of colorful circle" >}}

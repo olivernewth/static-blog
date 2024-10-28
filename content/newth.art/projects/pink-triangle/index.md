@@ -21,4 +21,6 @@ deeply with the community. Managing this project allowed me to blend creativity 
 resulting in an installation that not only honored the history and significance of the Pink Triangle
 but also brought together people in a shared celebration of resilience and unity.
 
-![Pink Triangle at night](pinktriangle_2.jpeg)
+![Celebrations on top of Twin Peaks in San Francisco](IMG_7520.jpeg)
+
+![Pink Triangle at night](IMG_7485.jpeg)
