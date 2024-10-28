@@ -12,7 +12,7 @@ summary:
   'Discover key strategies for building user trust in AI-driven products, drawing from real-world
   experiences and industry best practices.'
 cover:
-  image: 'abstract_representation_of_AI_and_human_trust_product_dev.png'
+  image: 'matter.png'
   alt: 'Abstract representation of AI and human trust'
 ---
 

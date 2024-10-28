@@ -6,7 +6,7 @@ weight: 10
 tags:
   - Productivity
 cover:
-  image: '85894.jpeg'
+  image: '387.png'
 ---
 
 Discover how I use a suite of powerful tools to enhance productivity, streamline workflows, and
