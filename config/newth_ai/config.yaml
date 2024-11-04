@@ -27,15 +27,11 @@ menu:
       url: /contact/
       weight: 3
   footer:
-    - identifier: mentoring
-      name: Mentoring
-      url: /mentoring/
-      weight: 1
-    - identifier: linkedin
-      name: LinkedIn
-      url: https://www.linkedin.com/in/newth/
+    - identifier: newth.art
+      name: newth.art
+      url: https://newth.art/
       weight: 2
-    - identifier: art
-      name: Art Installations
-      url: https://www.newth.art/
+    - identifier: newth.garden
+      name: newth.garden
+      url: https://newth.garden/
       weight: 3
