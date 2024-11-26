@@ -41,6 +41,6 @@ Cal.ns.interviews("ui", {
 
 <!-- Cal inline embed code ends -->
 
-<div style="width:100%;height:60vh;overflow:scroll" id="my-cal-inline"></div>
+<div style="width:100%;min-width:100%;height:80vh;overflow:scroll" id="my-cal-inline"></div>
 
 {{< /rawhtml>}}
